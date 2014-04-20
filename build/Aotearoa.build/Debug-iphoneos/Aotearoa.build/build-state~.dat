@@ -1,0 +1,1032 @@
+TAotearoa
+v7
+r0
+t338200106.105446
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Aotearoa.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Info.plist Aotearoa-Info.plist
+cCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/iTunesArtwork.png iTunesArtwork.png
+cCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon-72.png Icon-72.png
+cCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon.png Icon.png
+cCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/launch.png launch.png
+cCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/ErrorMessageViewController.xib
+cCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/NearByViewController.xib
+cCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/DefinitionViewController.xib
+cCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/StoryViewController.xib
+cCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/GlossaryViewController.xib
+cCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/LegendsViewController.xib
+cCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/MainWindow.xib
+cCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/legends.png legends.png
+cCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/map.png map.png
+cCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/glossary.png glossary.png
+cProcessPCH /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch.gch Aotearoa_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch.gch Aotearoa_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/main.o /Users/rowan/Documents/UHOH/Aotearoa/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/NearByViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendAnnotation.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/DefinitionViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/GlossaryViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/ErrorMessageViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/StoryViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendsViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/AotearoaAppDelegate.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/main.o /Users/rowan/Documents/UHOH/Aotearoa/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa normal armv6
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/NearByViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendAnnotation.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/DefinitionViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/GlossaryViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/ErrorMessageViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/StoryViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendsViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/AotearoaAppDelegate.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa normal armv7
+cCreateUniversalBinary /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa normal "armv6 armv7"
+cGenerateDSYMFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app.dSYM /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa
+cProcessProductPackaging "/Users/rowan/Library/MobileDevice/Provisioning Profiles/E69831ED-7710-47D3-BEF8-E405C9A68523.mobileprovision" /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/embedded.mobileprovision
+cTouch /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa.xcent
+cCodeSign /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D5DE7AF00000000000FD4D0
+t1297999791
+s1037520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004D5C9CA600000000000002FE
+t1297915046
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004D5C9CD400000000002B3AB0
+t1297915092
+s2833072
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Aotearoa_Prefix.pch
+c000000004E784E2B00000000000000B9
+t1316507179
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.h
+c000000004E5F9E8800000000000001BC
+t1314889352
+s444
+i<UIKit/UIKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m
+c000000004E7717B80000000000000A28
+t1316427704
+s2600
+i"AotearoaAppDelegate.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.h
+c000000004E5F935A00000000000001E0
+t1314886490
+s480
+i<UIKit/UIKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m
+c000000004E5F95B90000000000000686
+t1314887097
+s1670
+i"DefinitionViewController.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.h
+c000000004E76C55700000000000000FA
+t1316406615
+s250
+i<UIKit/UIKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m
+c000000004E76D01B0000000000000644
+t1316409371
+s1604
+i"ErrorMessageViewController.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/FirstViewController.h
+c000000004E784E2B00000000000000EC
+t1316507179
+s236
+i<UIKit/UIKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/FirstViewController.m
+c000000004E784E2B00000000000005B5
+t1316507179
+s1461
+i"FirstViewController.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.h
+c000000004E5F95DC0000000000000257
+t1314887132
+s599
+i<UIKit/UIKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m
+c000000004E770B070000000000001F3B
+t1316424455
+s7995
+i"GlossaryViewController.h"
+i"DefinitionViewController.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.h
+c000000004E5F9D1C00000000000002A2
+t1314888988
+s674
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m
+c000000004E5F9D1500000000000002D2
+t1314888981
+s722
+i"LegendAnnotation.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.h
+c000000004E76CD600000000000000358
+t1316408672
+s856
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m
+c000000004E770AF40000000000003578
+t1316424436
+s13688
+i"LegendsViewController.h"
+i"StoryViewController.h"
+i"ErrorMessageViewController.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.h
+c000000004E7706B6000000000000038B
+t1316423350
+s907
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"LegendAnnotation.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m
+c000000004E76C41C0000000000004704
+t1316406300
+s18180
+i"NearByViewController.h"
+i"LegendAnnotation.h"
+i"StoryViewController.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.h
+c000000004E5A445400000000000001D6
+t1314538580
+s470
+i<UIKit/UIKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m
+c000000004E5BAEAA0000000000000786
+t1314631338
+s1926
+i"StoryViewController.h"
+
+N/Users/rowan/Documents/UHOH/Aotearoa/DefinitionViewController.xib
+c000000004E5F93E80000000000004728
+t1314886632
+s18216
+
+N/Users/rowan/Documents/UHOH/Aotearoa/ErrorMessageViewController.xib
+c000000004E76CA8F000000000000471F
+t1316407951
+s18207
+
+N/Users/rowan/Documents/UHOH/Aotearoa/FirstView.xib
+c000000004E784E2B00000000000049D2
+t1316507179
+s18898
+
+N/Users/rowan/Documents/UHOH/Aotearoa/GlossaryViewController.xib
+c000000004E5364250000000000004C38
+t1314087973
+s19512
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Icon-72.png
+c000000004E65D38F0000000000000725
+t1315296143
+s1829
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Icon.png
+c000000004E65D38A0000000000000674
+t1315296138
+s1652
+
+N/Users/rowan/Documents/UHOH/Aotearoa/Icon@2x.png
+c000000004E65D3940000000000000915
+t1315296148
+s2325
+
+N/Users/rowan/Documents/UHOH/Aotearoa/LegendsViewController.xib
+c000000004E76CB1A0000000000005903
+t1316408090
+s22787
+
+N/Users/rowan/Documents/UHOH/Aotearoa/MainWindow.xib
+c000000004E636179000000000000AA3B
+t1315135865
+s43579
+
+N/Users/rowan/Documents/UHOH/Aotearoa/NearByViewController.xib
+c000000004E58EF210000000000004F00
+t1314451233
+s20224
+
+N/Users/rowan/Documents/UHOH/Aotearoa/SecondView.xib
+c000000004E784E2B00000000000049D0
+t1316507179
+s18896
+
+N/Users/rowan/Documents/UHOH/Aotearoa/StoryViewController.xib
+c000000004E5F529600000000000047CB
+t1314869910
+s18379
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa.xcent
+t1316507305
+s627
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa
+t1316507304
+s59712
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa.LinkFileList
+c000000004E784E9F000000000000049B
+t1316507295
+s1179
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/AotearoaAppDelegate.o
+t1316507304
+s53228
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/DefinitionViewController.o
+t1316507304
+s42840
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/ErrorMessageViewController.o
+t1316507304
+s38764
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/FirstViewController.o
+t2
+s0
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/GlossaryViewController.o
+t1316507304
+s50808
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendAnnotation.o
+t1316507304
+s14928
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendsViewController.o
+t1316507304
+s62380
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/NearByViewController.o
+t1316507304
+s64860
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/StoryViewController.o
+t1316507304
+s42672
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/main.o
+t1316507304
+s6444
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa
+t1316507305
+s55896
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa.LinkFileList
+c000000004E784E9F000000000000049B
+t1316507295
+s1179
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/AotearoaAppDelegate.o
+t1316507305
+s53152
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/DefinitionViewController.o
+t1316507304
+s42740
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/ErrorMessageViewController.o
+t1316507305
+s38728
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/FirstViewController.o
+t2
+s0
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/GlossaryViewController.o
+t1316507305
+s50556
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendAnnotation.o
+t1316507304
+s14820
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendsViewController.o
+t1316507305
+s61844
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/NearByViewController.o
+t1316507304
+s64244
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/StoryViewController.o
+t1316507305
+s42576
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/main.o
+t1316507304
+s6428
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app
+t1316507306
+s816
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app.dSYM
+t1316507305
+s102
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa
+t1316507305
+s121432
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/DefinitionViewController.nib
+t1316507300
+s2197
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/ErrorMessageViewController.nib
+t1316507298
+s2978
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/FirstView.nib
+t2
+s0
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/GlossaryViewController.nib
+t1316507300
+s1763
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon-72.png
+t1316507296
+s1969
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon.png
+t1316507296
+s1772
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon@2x.png
+t1316507296
+s2556
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Info.plist
+t1316507295
+s843
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/LegendsViewController.nib
+t1316507300
+s1883
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/MainWindow.nib
+t1316507301
+s4826
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/NearByViewController.nib
+t1316507299
+s2140
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/PkgInfo
+t1316507295
+s8
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/ResourceRules.plist
+t1316507295
+s485
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/SecondView.nib
+t2
+s0
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/StoryViewController.nib
+t1316507300
+s2197
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/embedded.mobileprovision
+t1316507305
+s7504
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/glossary.png
+t1316507300
+s14067
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/iTunesArtwork.png
+t1316507296
+s10282
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/launch.png
+t1316507296
+s5614
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/legends.png
+t1316507300
+s13371
+
+N/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/map.png
+t1316507300
+s13994
+
+N/Users/rowan/Documents/UHOH/Aotearoa/glossary.png
+c000000004E767F7E000000000000BC89
+t1316388734
+s48265
+
+N/Users/rowan/Documents/UHOH/Aotearoa/iTunesArtwork.png
+c000000004E65D398000000000000231D
+t1315296152
+s8989
+
+N/Users/rowan/Documents/UHOH/Aotearoa/launch.png
+c000000004E65D34500000000000010A6
+t1315296069
+s4262
+
+N/Users/rowan/Documents/UHOH/Aotearoa/legends.png
+c000000004E767F8D000000000000B9B5
+t1316388749
+s47541
+
+N/Users/rowan/Documents/UHOH/Aotearoa/main.m
+c000000004E784E2B0000000000000167
+t1316507179
+s359
+i<UIKit/UIKit.h>
+
+N/Users/rowan/Documents/UHOH/Aotearoa/map.png
+c000000004E767F97000000000000BE95
+t1316388759
+s48789
+
+N/Users/rowan/Library/MobileDevice/Provisioning Profiles/E69831ED-7710-47D3-BEF8-E405C9A68523.mobileprovision
+c000000004E7489140000000000001D50
+t1316260116
+s7504
+
+N/var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch.gch
+t1316507303
+s10184604
+
+N/var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch.gch
+t1316507303
+s10647452
+
+NAotearoa-Info.plist
+c000000004E784E2B000000000000038D
+t1316507179
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338200095#338200095#0(0"0(0#1#0"8613548640#0"0#
+
+CCodeSign /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app
+s338200105.496429
+e338200106.105398
+r1
+xCodeSign
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/Aotearoa.app338200105#338200106#0(0"0(0#0#70"/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app8618752000#647"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Anna Rose Kerr (8HR5243495)" --resource-rules=/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/ResourceRules.plist --entitlements /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa.xcent /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/AotearoaAppDelegate.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.567553
+e338200104.662405
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/AotearoaAppDelegate.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m338200104#338200104#0(0"0(0#0#66"/Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m8623652576#1760"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/AotearoaAppDelegate.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/DefinitionViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.291152
+e338200104.389851
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/DefinitionViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m338200104#338200104#0(0"0(0#0#71"/Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m8621110176#1770"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/DefinitionViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/ErrorMessageViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.389952
+e338200104.543283
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/ErrorMessageViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m338200104#338200104#0(0"0(0#0#73"/Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m8620020320#1774"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/ErrorMessageViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/FirstViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/GlossaryViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.300127
+e338200104.401429
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/GlossaryViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m338200104#338200104#0(0"0(0#0#69"/Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m8620593504#1766"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/GlossaryViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendAnnotation.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.189448
+e338200104.300015
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendAnnotation.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m338200104#338200104#0(0"0(0#0#63"/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m8625083968#1754"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendAnnotation.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendsViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.543394
+e338200104.723606
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendsViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m338200104#338200104#0(0"0(0#0#68"/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m8625681760#1764"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/LegendsViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/NearByViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.132078
+e338200104.291040
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/NearByViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m338200104#338200104#0(0"0(0#0#67"/Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m8625798880#1762"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/NearByViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/StoryViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.401547
+e338200104.567443
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/StoryViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m338200104#338200104#0(0"0(0#0#66"/Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m8619676224#1760"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/StoryViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/main.o /Users/rowan/Documents/UHOH/Aotearoa/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200104.130906
+e338200104.189343
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/main.o
+x/Users/rowan/Documents/UHOH/Aotearoa/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/rowan/Documents/UHOH/Aotearoa/main.m338200104#338200104#0(0"0(0#0#43"/Users/rowan/Documents/UHOH/Aotearoa/main.m8626376256#1722"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/main.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/AotearoaAppDelegate.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200105.161675
+e338200105.262764
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/AotearoaAppDelegate.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m338200105#338200105#0(0"0(0#0#66"/Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m8625652544#1760"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/AotearoaAppDelegate.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/AotearoaAppDelegate.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/DefinitionViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200104.894448
+e338200104.993358
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/DefinitionViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m338200104#338200104#0(0"0(0#0#71"/Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m8625885696#1770"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/DefinitionViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/DefinitionViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/ErrorMessageViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200104.993468
+e338200105.161571
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/ErrorMessageViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m338200104#338200105#0(0"0(0#0#73"/Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m8620292832#1774"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/ErrorMessageViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/ErrorMessageViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/FirstViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/GlossaryViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200104.924013
+e338200105.066250
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/GlossaryViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m338200104#338200105#0(0"0(0#0#69"/Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m8621311872#1766"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/GlossaryViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/GlossaryViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendAnnotation.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200104.801470
+e338200104.894335
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendAnnotation.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m338200104#338200104#0(0"0(0#0#63"/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m8612896672#1754"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendAnnotation.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendAnnotation.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendsViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200105.157119
+e338200105.304340
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendsViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m338200105#338200105#0(0"0(0#0#68"/Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m8626173376#1764"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/LegendsViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/LegendsViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/NearByViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200104.743795
+e338200104.923907
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/NearByViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m338200104#338200104#0(0"0(0#0#67"/Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m8613207296#1762"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/NearByViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/NearByViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/StoryViewController.o /Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200105.066491
+e338200105.156926
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/StoryViewController.o
+x/Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m338200105#338200105#0(0"0(0#0#66"/Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m8610302496#1760"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/Classes/StoryViewController.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/StoryViewController.o0#
+
+CCompileC build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/main.o /Users/rowan/Documents/UHOH/Aotearoa/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200104.662517
+e338200104.743682
+r1
+xCompileC
+xbuild/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/main.o
+x/Users/rowan/Documents/UHOH/Aotearoa/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/rowan/Documents/UHOH/Aotearoa/main.m338200104#338200104#0(0"0(0#0#43"/Users/rowan/Documents/UHOH/Aotearoa/main.m8612517120#1722"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -include /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch -c /Users/rowan/Documents/UHOH/Aotearoa/main.m -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/DefinitionViewController.xib
+s338200099.017209
+e338200100.340432
+r1
+xCompileXIB
+x/Users/rowan/Documents/UHOH/Aotearoa/DefinitionViewController.xib
+lSLF07#2@39"CompileXIB DefinitionViewController.xib338200099#338200100#0(0"0(0#0#65"/Users/rowan/Documents/UHOH/Aotearoa/DefinitionViewController.xib8621281376#565"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/DefinitionViewController.nib /Users/rowan/Documents/UHOH/Aotearoa/DefinitionViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/ErrorMessageViewController.xib
+s338200096.211055
+e338200099.016987
+r1
+xCompileXIB
+x/Users/rowan/Documents/UHOH/Aotearoa/ErrorMessageViewController.xib
+lSLF07#2@41"CompileXIB ErrorMessageViewController.xib338200096#338200099#0(0"0(0#0#67"/Users/rowan/Documents/UHOH/Aotearoa/ErrorMessageViewController.xib8625551776#569"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/ErrorMessageViewController.nib /Users/rowan/Documents/UHOH/Aotearoa/ErrorMessageViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/FirstView.xib
+r0
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/GlossaryViewController.xib
+s338200100.272828
+e338200100.875249
+r1
+xCompileXIB
+x/Users/rowan/Documents/UHOH/Aotearoa/GlossaryViewController.xib
+lSLF07#2@37"CompileXIB GlossaryViewController.xib338200100#338200100#0(0"0(0#0#63"/Users/rowan/Documents/UHOH/Aotearoa/GlossaryViewController.xib8619619872#561"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/GlossaryViewController.nib /Users/rowan/Documents/UHOH/Aotearoa/GlossaryViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/LegendsViewController.xib
+s338200100.340528
+e338200100.853886
+r1
+xCompileXIB
+x/Users/rowan/Documents/UHOH/Aotearoa/LegendsViewController.xib
+lSLF07#2@36"CompileXIB LegendsViewController.xib338200100#338200100#0(0"0(0#0#62"/Users/rowan/Documents/UHOH/Aotearoa/LegendsViewController.xib8619250208#559"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/LegendsViewController.nib /Users/rowan/Documents/UHOH/Aotearoa/LegendsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/MainWindow.xib
+s338200100.854103
+e338200101.394579
+r1
+xCompileXIB
+x/Users/rowan/Documents/UHOH/Aotearoa/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338200100#338200101#0(0"0(0#0#51"/Users/rowan/Documents/UHOH/Aotearoa/MainWindow.xib8617848224#537"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/MainWindow.nib /Users/rowan/Documents/UHOH/Aotearoa/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/NearByViewController.xib
+s338200096.303696
+e338200099.168666
+r1
+xCompileXIB
+x/Users/rowan/Documents/UHOH/Aotearoa/NearByViewController.xib
+lSLF07#2@35"CompileXIB NearByViewController.xib338200096#338200099#0(0"0(0#0#61"/Users/rowan/Documents/UHOH/Aotearoa/NearByViewController.xib8625025056#557"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/NearByViewController.nib /Users/rowan/Documents/UHOH/Aotearoa/NearByViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/SecondView.xib
+r0
+
+CCompileXIB /Users/rowan/Documents/UHOH/Aotearoa/StoryViewController.xib
+s338200099.168765
+e338200100.272704
+r1
+xCompileXIB
+x/Users/rowan/Documents/UHOH/Aotearoa/StoryViewController.xib
+lSLF07#2@34"CompileXIB StoryViewController.xib338200099#338200100#0(0"0(0#0#60"/Users/rowan/Documents/UHOH/Aotearoa/StoryViewController.xib8608787360#555"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/StoryViewController.nib /Users/rowan/Documents/UHOH/Aotearoa/StoryViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon-72.png Icon-72.png
+s338200096.145530
+e338200096.184359
+r1
+xCopyPNGFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon-72.png
+xIcon-72.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Aotearoa.app/Icon-72.png Icon-72.png338200096#338200096#0(0"0(0#0#48"/Users/rowan/Documents/UHOH/Aotearoa/Icon-72.png8620163936#457"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rowan/Documents/UHOH/Aotearoa/Icon-72.png /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon-72.png0#
+
+CCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon.png Icon.png
+s338200096.184464
+e338200096.210956
+r1
+xCopyPNGFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon.png
+xIcon.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/Aotearoa.app/Icon.png Icon.png338200096#338200096#0(0"0(0#0#45"/Users/rowan/Documents/UHOH/Aotearoa/Icon.png8626342912#451"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rowan/Documents/UHOH/Aotearoa/Icon.png /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon.png0#
+
+CCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon@2x.png Icon@2x.png
+s338200095.538635
+e338200096.141654
+r1
+xCopyPNGFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon@2x.png
+xIcon@2x.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Aotearoa.app/Icon@2x.png Icon@2x.png338200095#338200096#0(0"0(0#0#48"/Users/rowan/Documents/UHOH/Aotearoa/Icon@2x.png8620744384#457"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rowan/Documents/UHOH/Aotearoa/Icon@2x.png /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Icon@2x.png0#
+
+CCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/glossary.png glossary.png
+s338200100.949336
+e338200100.983690
+r1
+xCopyPNGFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/glossary.png
+xglossary.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Aotearoa.app/glossary.png glossary.png338200100#338200100#0(0"0(0#0#49"/Users/rowan/Documents/UHOH/Aotearoa/glossary.png8613713824#459"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rowan/Documents/UHOH/Aotearoa/glossary.png /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/glossary.png0#
+
+CCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/iTunesArtwork.png iTunesArtwork.png
+s338200095.539363
+e338200096.197963
+r1
+xCopyPNGFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/iTunesArtwork.png
+xiTunesArtwork.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Aotearoa.app/iTunesArtwork.png iTunesArtwork.png338200095#338200096#0(0"0(0#0#54"/Users/rowan/Documents/UHOH/Aotearoa/iTunesArtwork.png8620340896#469"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rowan/Documents/UHOH/Aotearoa/iTunesArtwork.png /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/iTunesArtwork.png0#
+
+CCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/launch.png launch.png
+s338200096.198065
+e338200096.303602
+r1
+xCopyPNGFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/launch.png
+xlaunch.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Aotearoa.app/launch.png launch.png338200096#338200096#0(0"0(0#0#47"/Users/rowan/Documents/UHOH/Aotearoa/launch.png8625809024#455"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rowan/Documents/UHOH/Aotearoa/launch.png /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/launch.png0#
+
+CCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/legends.png legends.png
+s338200100.875345
+e338200100.912283
+r1
+xCopyPNGFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/legends.png
+xlegends.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Aotearoa.app/legends.png legends.png338200100#338200100#0(0"0(0#0#48"/Users/rowan/Documents/UHOH/Aotearoa/legends.png8615598368#457"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rowan/Documents/UHOH/Aotearoa/legends.png /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/legends.png0#
+
+CCopyPNGFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/map.png map.png
+s338200100.912390
+e338200100.949241
+r1
+xCopyPNGFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/map.png
+xmap.png
+lSLF07#2@61"CopyPNGFile build/Debug-iphoneos/Aotearoa.app/map.png map.png338200100#338200100#0(0"0(0#0#44"/Users/rowan/Documents/UHOH/Aotearoa/map.png8614694720#449"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rowan/Documents/UHOH/Aotearoa/map.png /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/map.png0#
+
+CCpResource build/Debug-iphoneos/Aotearoa.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s338200095.494938
+e338200095.538532
+r1
+xCpResource
+xbuild/Debug-iphoneos/Aotearoa.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist338200095#338200095#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8623823488#491"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app0#
+
+CCreateUniversalBinary /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa normal "armv6 armv7"
+s338200105.356342
+e338200105.359992
+r1
+xCreateUniversalBinary
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/Aotearoa.app/Aotearoa normal "armv6 armv7"338200105#338200105#0(0"0(0#0#48"/Users/rowan/Documents/UHOH/Aotearoa/armv6 armv78620627968#518"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa -output /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa0#
+
+CGenerateDSYMFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app.dSYM /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa
+s338200105.360087
+e338200105.454356
+r1
+xGenerateDSYMFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app.dSYM
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Aotearoa.app.dSYM build/Debug-iphoneos/Aotearoa.app/Aotearoa338200105#338200105#0(0"0(0#0#79"/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa8619667904#359"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Aotearoa -o /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app.dSYM0#
+
+CLd /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa normal armv6
+s338200104.723709
+e338200104.801355
+r1
+xLd
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa
+xnormal
+xarmv6
+lSLF07#2@122"Link /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa338200104#338200104#0(0"0(0#0#0"8615702464#897"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -filelist /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv6/Aotearoa0#
+
+CLd /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa normal armv7
+s338200105.304429
+e338200105.356225
+r1
+xLd
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa
+xnormal
+xarmv7
+lSLF07#2@122"Link /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa338200105#338200105#0(0"0(0#0#0"8620945888#897"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -filelist /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Objects-normal/armv7/Aotearoa0#
+
+CProcessInfoPlistFile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Info.plist Aotearoa-Info.plist
+s338200095.495882
+e338200095.527417
+r1
+xProcessInfoPlistFile
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Info.plist
+xAotearoa-Info.plist
+lSLF07#2@27"Process Aotearoa-Info.plist338200095#338200095#0(0"0(0#0#56"/Users/rowan/Documents/UHOH/Aotearoa/Aotearoa-Info.plist8623583552#558"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Aotearoa-Info.plist -genpkginfo /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/ResourceRules.plist -o /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/Info.plist0#
+
+CProcessPCH /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch.gch Aotearoa_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338200101.394710
+e338200103.513360
+r1
+xProcessPCH
+x/var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch.gch
+xAotearoa_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Aotearoa_Prefix.pch338200101#338200103#0(0"0(0#0#56"/Users/rowan/Documents/UHOH/Aotearoa/Aotearoa_Prefix.pch8625908032#1621"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv6 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -c /Users/rowan/Documents/UHOH/Aotearoa/Aotearoa_Prefix.pch -o /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-aslfxqdrvfidaggxznkvxsnxbuqq/Aotearoa_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch.gch Aotearoa_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338200101.396055
+e338200104.130795
+r1
+xProcessPCH
+x/var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch.gch
+xAotearoa_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Aotearoa_Prefix.pch338200101#338200104#0(0"0(0#0#56"/Users/rowan/Documents/UHOH/Aotearoa/Aotearoa_Prefix.pch8625766304#1621"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-generated-files.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-own-target-headers.hmap -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-all-target-headers.hmap -iquote /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa-project-headers.hmap -F/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos -I/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/include -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources/armv7 -I/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/DerivedSources -c /Users/rowan/Documents/UHOH/Aotearoa/Aotearoa_Prefix.pch -o /var/folders/LQ/LQhHqMMdH2G2Xq9o6muX9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aotearoa_Prefix-csyifamjygesxnbbjycoeyzfhhap/Aotearoa_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/rowan/Library/MobileDevice/Provisioning Profiles/E69831ED-7710-47D3-BEF8-E405C9A68523.mobileprovision" /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/embedded.mobileprovision
+s338200105.454469
+e338200105.470886
+r1
+xProcessProductPackaging
+x/Users/rowan/Library/MobileDevice/Provisioning Profiles/E69831ED-7710-47D3-BEF8-E405C9A68523.mobileprovision
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/rowan/Library/MobileDevice/Provisioning Profiles/E69831ED-7710-47D3-BEF8-E405C9A68523.mobileprovision" build/Debug-iphoneos/Aotearoa.app/embedded.mobileprovision338200105#338200105#0(0"0(0#0#95"/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/embedded.mobileprovision8613196160#420"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/rowan/Library/MobileDevice/Provisioning Profiles/E69831ED-7710-47D3-BEF8-E405C9A68523.mobileprovision" -o /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa.xcent
+s338200105.474819
+e338200105.496351
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa.xcent338200105#338200105#0(0"0(0#0#102"/Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa.xcent8619050336#431"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/rowan/Documents/UHOH/Aotearoa/build/Aotearoa.build/Debug-iphoneos/Aotearoa.build/Aotearoa.xcent0#
+
+CTouch /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app
+s338200105.470972
+e338200105.474729
+r1
+xTouch
+x/Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app
+lSLF07#2@76"Touch /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app338200105#338200105#0(0"0(0#0#0"8612595072#261"    cd /Users/rowan/Documents/UHOH/Aotearoa    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rowan/Documents/UHOH/Aotearoa/build/Debug-iphoneos/Aotearoa.app0#
+

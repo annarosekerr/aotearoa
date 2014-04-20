@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Aotearoa */ = {
+		activeExec = 0;
+		executables = (
+			58CD5C37142885AB00B2475B /* Aotearoa */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = 58CD5C37142885AB00B2475B /* Aotearoa */;
+		activeSDKPreference = iphoneos4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Aotearoa */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Aotearoa */,
+		);
+		codeSenseManager = 58CD5C41142885AF00B2475B /* Code sense */;
+		executables = (
+			58CD5C37142885AB00B2475B /* Aotearoa */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					377,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					412,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338270847;
+			PBXWorkspaceStateSaveDate = 338270847;
+		};
+		perUserProjectItems = {
+			58275BD11429999E00AD6EEE /* PBXTextBookmark */ = 58275BD11429999E00AD6EEE /* PBXTextBookmark */;
+			58275BD21429999E00AD6EEE /* PBXTextBookmark */ = 58275BD21429999E00AD6EEE /* PBXTextBookmark */;
+			58275BD31429999E00AD6EEE /* PBXTextBookmark */ = 58275BD31429999E00AD6EEE /* PBXTextBookmark */;
+			58275BD41429999E00AD6EEE /* PBXTextBookmark */ = 58275BD41429999E00AD6EEE /* PBXTextBookmark */;
+			58275BD51429999E00AD6EEE /* PBXTextBookmark */ = 58275BD51429999E00AD6EEE /* PBXTextBookmark */;
+			58275BD61429999E00AD6EEE /* PBXTextBookmark */ = 58275BD61429999E00AD6EEE /* PBXTextBookmark */;
+			58275BD71429999E00AD6EEE /* PBXTextBookmark */ = 58275BD71429999E00AD6EEE /* PBXTextBookmark */;
+			58275BD81429999E00AD6EEE /* PBXTextBookmark */ = 58275BD81429999E00AD6EEE /* PBXTextBookmark */;
+			58275BD91429999E00AD6EEE /* PBXTextBookmark */ = 58275BD91429999E00AD6EEE /* PBXTextBookmark */;
+			58275BDA1429999E00AD6EEE /* PBXTextBookmark */ = 58275BDA1429999E00AD6EEE /* PBXTextBookmark */;
+			58275BDB1429999E00AD6EEE /* PBXTextBookmark */ = 58275BDB1429999E00AD6EEE /* PBXTextBookmark */;
+			58275BDC1429999E00AD6EEE /* PBXTextBookmark */ = 58275BDC1429999E00AD6EEE /* PBXTextBookmark */;
+			58275BDD1429999E00AD6EEE /* PBXTextBookmark */ = 58275BDD1429999E00AD6EEE /* PBXTextBookmark */;
+			58275BDE1429999E00AD6EEE /* PBXTextBookmark */ = 58275BDE1429999E00AD6EEE /* PBXTextBookmark */;
+			58275BDF1429999E00AD6EEE /* PBXTextBookmark */ = 58275BDF1429999E00AD6EEE /* PBXTextBookmark */;
+			58275BE01429999E00AD6EEE /* PBXTextBookmark */ = 58275BE01429999E00AD6EEE /* PBXTextBookmark */;
+			58275BE11429999E00AD6EEE /* PBXTextBookmark */ = 58275BE11429999E00AD6EEE /* PBXTextBookmark */;
+			58275BE31429999E00AD6EEE /* PBXTextBookmark */ = 58275BE31429999E00AD6EEE /* PBXTextBookmark */;
+			58275BF014299A8800AD6EEE /* PBXTextBookmark */ = 58275BF014299A8800AD6EEE /* PBXTextBookmark */;
+			58CD5D581428C85600B2475B /* PlistBookmark */ = 58CD5D581428C85600B2475B /* PlistBookmark */;
+			58CD5D5B1428C85600B2475B /* PlistBookmark */ = 58CD5D5B1428C85600B2475B /* PlistBookmark */;
+		};
+		sourceControlManager = 58CD5C40142885AF00B2475B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	58275BD11429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C47142885DF00B2475B /* LegendAnnotation.m */;
+		name = "LegendAnnotation.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 578;
+		vrLoc = 37;
+	};
+	58275BD21429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C46142885DF00B2475B /* LegendAnnotation.h */;
+		name = "LegendAnnotation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 40;
+	};
+	58275BD31429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C45142885DF00B2475B /* NearByViewController.m */;
+		name = "NearByViewController.m: 135";
+		rLen = 0;
+		rLoc = 4796;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 11351;
+	};
+	58275BD41429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C44142885DF00B2475B /* NearByViewController.h */;
+		name = "NearByViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 227;
+	};
+	58275BD51429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C4B142885DF00B2475B /* DefinitionViewController.m */;
+		name = "DefinitionViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 0;
+	};
+	58275BD61429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C4A142885DF00B2475B /* DefinitionViewController.h */;
+		name = "DefinitionViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	58275BD71429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C4D142885DF00B2475B /* GlossaryViewController.h */;
+		name = "GlossaryViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 0;
+	};
+	58275BD81429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C4C142885DF00B2475B /* GlossaryViewController.m */;
+		name = "GlossaryViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 0;
+	};
+	58275BD91429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C51142885DF00B2475B /* ErrorMessageViewController.m */;
+		name = "ErrorMessageViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 610;
+	};
+	58275BDA1429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C50142885DF00B2475B /* ErrorMessageViewController.h */;
+		name = "ErrorMessageViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 250;
+		vrLoc = 0;
+	};
+	58275BDB1429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C53142885DF00B2475B /* StoryViewController.m */;
+		name = "StoryViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 657;
+		vrLoc = 0;
+	};
+	58275BDC1429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C54142885DF00B2475B /* StoryViewController.h */;
+		name = "StoryViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	58275BDD1429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C56142885DF00B2475B /* LegendsViewController.h */;
+		name = "LegendsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 0;
+	};
+	58275BDE1429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C58142885DF00B2475B /* AotearoaAppDelegate.m */;
+		name = "AotearoaAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 520;
+		vrLoc = 2080;
+	};
+	58275BDF1429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C57142885DF00B2475B /* AotearoaAppDelegate.h */;
+		name = "AotearoaAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	58275BE01429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5CEA1428878C00B2475B /* Auckland latitude.txt */;
+		name = "Auckland latitude.txt: 1";
+		rLen = 0;
+		rLoc = 9;
+		rType = 0;
+		vrLen = 9;
+		vrLoc = 0;
+	};
+	58275BE11429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C9E1428878200B2475B /* Aroha definition.txt */;
+		name = "Aroha definition.txt: 1";
+		rLen = 0;
+		rLoc = 38;
+		rType = 0;
+		vrLen = 40;
+		vrLoc = 0;
+	};
+	58275BE31429999E00AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C55142885DF00B2475B /* LegendsViewController.m */;
+		name = "LegendsViewController.m: 303";
+		rLen = 0;
+		rLoc = 9996;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 9588;
+	};
+	58275BF014299A8800AD6EEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58CD5C55142885DF00B2475B /* LegendsViewController.m */;
+		name = "LegendsViewController.m: 303";
+		rLen = 0;
+		rLoc = 9996;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 9618;
+	};
+	58CD5C37142885AB00B2475B /* Aotearoa */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Aotearoa;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	58CD5C40142885AF00B2475B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	58CD5C41142885AF00B2475B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	58CD5C44142885DF00B2475B /* NearByViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{227, 680}";
+		};
+	};
+	58CD5C45142885DF00B2475B /* NearByViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 5434}}";
+			sepNavSelRange = "{4796, 0}";
+			sepNavVisRange = "{11351, 757}";
+		};
+	};
+	58CD5C46142885DF00B2475B /* LegendAnnotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 403}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{40, 634}";
+		};
+	};
+	58CD5C47142885DF00B2475B /* LegendAnnotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 559}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{37, 578}";
+		};
+	};
+	58CD5C4A142885DF00B2475B /* DefinitionViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 351}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 480}";
+		};
+	};
+	58CD5C4B142885DF00B2475B /* DefinitionViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 910}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 673}";
+		};
+	};
+	58CD5C4C142885DF00B2475B /* GlossaryViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{5305, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5356, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5406, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 7995}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1524, 3380}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 697}";
+		};
+	};
+	58CD5C4D142885DF00B2475B /* GlossaryViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 351}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 599}";
+		};
+	};
+	58CD5C50142885DF00B2475B /* ErrorMessageViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 341}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 250}";
+		};
+	};
+	58CD5C51142885DF00B2475B /* ErrorMessageViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 845}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{610, 693}";
+		};
+	};
+	58CD5C53142885DF00B2475B /* StoryViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1293, 988}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 657}";
+		};
+	};
+	58CD5C54142885DF00B2475B /* StoryViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 341}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 470}";
+		};
+	};
+	58CD5C55142885DF00B2475B /* LegendsViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{7769, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7820, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7870, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 14139}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {782, 5967}}";
+			sepNavSelRange = "{9939, 0}";
+			sepNavVisRange = "{9561, 470}";
+		};
+	};
+	58CD5C56142885DF00B2475B /* LegendsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 507}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 602}";
+		};
+	};
+	58CD5C57142885DF00B2475B /* AotearoaAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {544, 286}}";
+			sepNavSelRange = "{143, 0}";
+			sepNavVisRange = "{0, 238}";
+		};
+	};
+	58CD5C58142885DF00B2475B /* AotearoaAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1170}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2080, 520}";
+		};
+	};
+	58CD5C9E1428878200B2475B /* Aroha definition.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {463, 180}}";
+			sepNavSelRange = "{38, 0}";
+			sepNavVisRange = "{0, 40}";
+		};
+	};
+	58CD5CEA1428878C00B2475B /* Auckland latitude.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {451, 177}}";
+			sepNavSelRange = "{9, 0}";
+			sepNavVisRange = "{0, 9}";
+		};
+	};
+	58CD5D581428C85600B2475B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Aotearoa-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/rowan/Documents/UHOH/Aotearoa/Aotearoa-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	58CD5D5B1428C85600B2475B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 58CD5D54142895FD00B2475B /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/rowan/Documents/UHOH/Aotearoa/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8D1107310486CEB800E47090 /* Aotearoa-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 55}, {1253, 718}}";
+		};
+	};
+}

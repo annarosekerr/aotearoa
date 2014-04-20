@@ -1,0 +1,1283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		58CD5C59142885DF00B2475B /* NearByViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5C45142885DF00B2475B /* NearByViewController.m */; };
+		58CD5C5A142885DF00B2475B /* LegendAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5C47142885DF00B2475B /* LegendAnnotation.m */; };
+		58CD5C5B142885DF00B2475B /* DefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5C4B142885DF00B2475B /* DefinitionViewController.m */; };
+		58CD5C5C142885DF00B2475B /* GlossaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5C4C142885DF00B2475B /* GlossaryViewController.m */; };
+		58CD5C5D142885DF00B2475B /* ErrorMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5C51142885DF00B2475B /* ErrorMessageViewController.m */; };
+		58CD5C5E142885DF00B2475B /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5C53142885DF00B2475B /* StoryViewController.m */; };
+		58CD5C5F142885DF00B2475B /* LegendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5C55142885DF00B2475B /* LegendsViewController.m */; };
+		58CD5C60142885DF00B2475B /* AotearoaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5C58142885DF00B2475B /* AotearoaAppDelegate.m */; };
+		58CD5C741428860300B2475B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C621428860300B2475B /* Icon@2x.png */; };
+		58CD5C751428860300B2475B /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C631428860300B2475B /* iTunesArtwork.png */; };
+		58CD5C761428860300B2475B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C641428860300B2475B /* Icon-72.png */; };
+		58CD5C771428860300B2475B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C651428860300B2475B /* Icon.png */; };
+		58CD5C781428860300B2475B /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C671428860300B2475B /* launch.png */; };
+		58CD5C791428860300B2475B /* ErrorMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C691428860300B2475B /* ErrorMessageViewController.xib */; };
+		58CD5C7A1428860300B2475B /* NearByViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C6A1428860300B2475B /* NearByViewController.xib */; };
+		58CD5C7B1428860300B2475B /* DefinitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C6B1428860300B2475B /* DefinitionViewController.xib */; };
+		58CD5C7C1428860300B2475B /* StoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C6C1428860300B2475B /* StoryViewController.xib */; };
+		58CD5C7D1428860300B2475B /* GlossaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C6D1428860300B2475B /* GlossaryViewController.xib */; };
+		58CD5C7E1428860300B2475B /* LegendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C6E1428860300B2475B /* LegendsViewController.xib */; };
+		58CD5C7F1428860300B2475B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C6F1428860300B2475B /* MainWindow.xib */; };
+		58CD5C801428860300B2475B /* legends.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C711428860300B2475B /* legends.png */; };
+		58CD5C811428860300B2475B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C721428860300B2475B /* map.png */; };
+		58CD5C821428860300B2475B /* glossary.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C731428860300B2475B /* glossary.png */; };
+		58CD5C841428861000B2475B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD5C831428861000B2475B /* CoreLocation.framework */; };
+		58CD5C861428861900B2475B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD5C851428861900B2475B /* MapKit.framework */; };
+		58CD5CCF1428878200B2475B /* Aroha definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5C9E1428878200B2475B /* Aroha definition.txt */; };
+		58CD5CD01428878200B2475B /* Hui definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CA01428878200B2475B /* Hui definition.txt */; };
+		58CD5CD11428878200B2475B /* Kau definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CA21428878200B2475B /* Kau definition.txt */; };
+		58CD5CD21428878200B2475B /* Mana definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CA41428878200B2475B /* Mana definition.txt */; };
+		58CD5CD31428878200B2475B /* Mate definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CA61428878200B2475B /* Mate definition.txt */; };
+		58CD5CD41428878200B2475B /* One definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CA81428878200B2475B /* One definition.txt */; };
+		58CD5CD51428878200B2475B /* Puna definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CAA1428878200B2475B /* Puna definition.txt */; };
+		58CD5CD61428878200B2475B /* Punga definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CAC1428878200B2475B /* Punga definition.txt */; };
+		58CD5CD71428878200B2475B /* Rangi definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CAE1428878200B2475B /* Rangi definition.txt */; };
+		58CD5CD81428878200B2475B /* Rei definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CB01428878200B2475B /* Rei definition.txt */; };
+		58CD5CD91428878200B2475B /* Reinga definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CB21428878200B2475B /* Reinga definition.txt */; };
+		58CD5CDA1428878200B2475B /* Roa definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CB41428878200B2475B /* Roa definition.txt */; };
+		58CD5CDB1428878200B2475B /* Roto definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CB61428878200B2475B /* Roto definition.txt */; };
+		58CD5CDC1428878200B2475B /* Rua definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CB81428878200B2475B /* Rua definition.txt */; };
+		58CD5CDD1428878200B2475B /* Taka definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CBA1428878200B2475B /* Taka definition.txt */; };
+		58CD5CDE1428878200B2475B /* Takere definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CBC1428878200B2475B /* Takere definition.txt */; };
+		58CD5CDF1428878200B2475B /* Tama definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CBE1428878200B2475B /* Tama definition.txt */; };
+		58CD5CE01428878200B2475B /* Taniwha definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CC01428878200B2475B /* Taniwha definition.txt */; };
+		58CD5CE11428878200B2475B /* Tohe definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CC21428878200B2475B /* Tohe definition.txt */; };
+		58CD5CE21428878200B2475B /* Wai definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CC41428878200B2475B /* Wai definition.txt */; };
+		58CD5CE31428878200B2475B /* Wairua definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CC61428878200B2475B /* Wairua definition.txt */; };
+		58CD5CE41428878200B2475B /* Waka definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CC81428878200B2475B /* Waka definition.txt */; };
+		58CD5CE51428878200B2475B /* Whanau definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CCA1428878200B2475B /* Whanau definition.txt */; };
+		58CD5CE61428878200B2475B /* Whanga definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CCC1428878200B2475B /* Whanga definition.txt */; };
+		58CD5CE71428878200B2475B /* Whare definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CCE1428878200B2475B /* Whare definition.txt */; };
+		58CD5D1D1428878C00B2475B /* Auckland latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CEA1428878C00B2475B /* Auckland latitude.txt */; };
+		58CD5D1E1428878C00B2475B /* Auckland legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CEB1428878C00B2475B /* Auckland legend.txt */; };
+		58CD5D1F1428878C00B2475B /* Auckland longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CEC1428878C00B2475B /* Auckland longitude.txt */; };
+		58CD5D201428878C00B2475B /* Cape Reinga latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CEE1428878C00B2475B /* Cape Reinga latitude.txt */; };
+		58CD5D211428878C00B2475B /* Cape Reinga legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CEF1428878C00B2475B /* Cape Reinga legend.txt */; };
+		58CD5D221428878C00B2475B /* Cape Reinga longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CF01428878C00B2475B /* Cape Reinga longitude.txt */; };
+		58CD5D231428878C00B2475B /* Kaikoura latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CF21428878C00B2475B /* Kaikoura latitude.txt */; };
+		58CD5D241428878C00B2475B /* Kaikoura legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CF31428878C00B2475B /* Kaikoura legend.txt */; };
+		58CD5D251428878C00B2475B /* Kaikoura longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CF41428878C00B2475B /* Kaikoura longitude.txt */; };
+		58CD5D261428878C00B2475B /* Manakau latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CF61428878C00B2475B /* Manakau latitude.txt */; };
+		58CD5D271428878C00B2475B /* Manakau legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CF71428878C00B2475B /* Manakau legend.txt */; };
+		58CD5D281428878C00B2475B /* Manakau longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CF81428878C00B2475B /* Manakau longitude.txt */; };
+		58CD5D291428878C00B2475B /* Mt Taranaki latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CFA1428878C00B2475B /* Mt Taranaki latitude.txt */; };
+		58CD5D2A1428878C00B2475B /* Mt Taranaki legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CFB1428878C00B2475B /* Mt Taranaki legend.txt */; };
+		58CD5D2B1428878C00B2475B /* Mt Taranaki longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CFC1428878C00B2475B /* Mt Taranaki longitude.txt */; };
+		58CD5D2C1428878C00B2475B /* Napier latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CFE1428878C00B2475B /* Napier latitude.txt */; };
+		58CD5D2D1428878C00B2475B /* Napier legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5CFF1428878C00B2475B /* Napier legend.txt */; };
+		58CD5D2E1428878C00B2475B /* Napier longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D001428878C00B2475B /* Napier longitude.txt */; };
+		58CD5D2F1428878C00B2475B /* Queenstown latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D021428878C00B2475B /* Queenstown latitude.txt */; };
+		58CD5D301428878C00B2475B /* Queenstown legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D031428878C00B2475B /* Queenstown legend.txt */; };
+		58CD5D311428878C00B2475B /* Queenstown longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D041428878C00B2475B /* Queenstown longitude.txt */; };
+		58CD5D321428878C00B2475B /* Rangitoto latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D061428878C00B2475B /* Rangitoto latitude.txt */; };
+		58CD5D331428878C00B2475B /* Rangitoto legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D071428878C00B2475B /* Rangitoto legend.txt */; };
+		58CD5D341428878C00B2475B /* Rangitoto longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D081428878C00B2475B /* Rangitoto longitude.txt */; };
+		58CD5D351428878C00B2475B /* Rotorua latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D0A1428878C00B2475B /* Rotorua latitude.txt */; };
+		58CD5D361428878C00B2475B /* Rotorua legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D0B1428878C00B2475B /* Rotorua legend.txt */; };
+		58CD5D371428878C00B2475B /* Rotorua longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D0C1428878C00B2475B /* Rotorua longitude.txt */; };
+		58CD5D381428878C00B2475B /* Stewart Island latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D0E1428878C00B2475B /* Stewart Island latitude.txt */; };
+		58CD5D391428878C00B2475B /* Stewart Island legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D0F1428878C00B2475B /* Stewart Island legend.txt */; };
+		58CD5D3A1428878C00B2475B /* Stewart Island longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D101428878C00B2475B /* Stewart Island longitude.txt */; };
+		58CD5D3B1428878C00B2475B /* Takapuna latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D121428878C00B2475B /* Takapuna latitude.txt */; };
+		58CD5D3C1428878C00B2475B /* Takapuna legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D131428878C00B2475B /* Takapuna legend.txt */; };
+		58CD5D3D1428878C00B2475B /* Takapuna longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D141428878C00B2475B /* Takapuna longitude.txt */; };
+		58CD5D3E1428878C00B2475B /* West Coast latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D161428878C00B2475B /* West Coast latitude.txt */; };
+		58CD5D3F1428878C00B2475B /* West Coast legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D171428878C00B2475B /* West Coast legend.txt */; };
+		58CD5D401428878C00B2475B /* West Coast longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D181428878C00B2475B /* West Coast longitude.txt */; };
+		58CD5D411428878C00B2475B /* Whangarei latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D1A1428878C00B2475B /* Whangarei latitude.txt */; };
+		58CD5D421428878C00B2475B /* Whangarei legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D1B1428878C00B2475B /* Whangarei legend.txt */; };
+		58CD5D431428878C00B2475B /* Whangarei longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58CD5D1C1428878C00B2475B /* Whangarei longitude.txt */; };
+		A014FB4B1449216500757D61 /* Christchurch latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB381449216500757D61 /* Christchurch latitude.txt */; };
+		A014FB4C1449216500757D61 /* Christchurch legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB391449216500757D61 /* Christchurch legend.txt */; };
+		A014FB4D1449216500757D61 /* Christchurch longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB3A1449216500757D61 /* Christchurch longitude.txt */; };
+		A014FB4E1449216500757D61 /* Dunedin latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB3C1449216500757D61 /* Dunedin latitude.txt */; };
+		A014FB4F1449216500757D61 /* Dunedin legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB3D1449216500757D61 /* Dunedin legend.txt */; };
+		A014FB501449216500757D61 /* Dunedin longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB3E1449216500757D61 /* Dunedin longitude.txt */; };
+		A014FB511449216500757D61 /* Hamilton latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB401449216500757D61 /* Hamilton latitude.txt */; };
+		A014FB521449216500757D61 /* Hamilton legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB411449216500757D61 /* Hamilton legend.txt */; };
+		A014FB531449216500757D61 /* Hamilton longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB421449216500757D61 /* Hamilton longitude.txt */; };
+		A014FB571449216500757D61 /* Wellington latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB481449216500757D61 /* Wellington latitude.txt */; };
+		A014FB581449216500757D61 /* Wellington legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB491449216500757D61 /* Wellington legend.txt */; };
+		A014FB591449216500757D61 /* Wellington longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FB4A1449216500757D61 /* Wellington longitude.txt */; };
+		A014FBD31449223800757D61 /* Whero definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBC11449223800757D61 /* Whero definition.txt */; };
+		A014FBD41449223800757D61 /* Kowhai definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBC31449223800757D61 /* Kowhai definition.txt */; };
+		A014FBD51449223800757D61 /* Kakariki definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBC51449223800757D61 /* Kakariki definition.txt */; };
+		A014FBD61449223800757D61 /* Kikorangi definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBC71449223800757D61 /* Kikorangi definition.txt */; };
+		A014FBD71449223800757D61 /* Mangu definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBC91449223800757D61 /* Mangu definition.txt */; };
+		A014FBD81449223800757D61 /* Ma definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBCB1449223800757D61 /* Ma definition.txt */; };
+		A014FBD91449223800757D61 /* Pari definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBCD1449223800757D61 /* Pari definition.txt */; };
+		A014FBDB1449223800757D61 /* Aroaro definition.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBD11449223800757D61 /* Aroaro definition.txt */; };
+		A014FBE0144925D500757D61 /* Kapiti Island latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBDD144925D500757D61 /* Kapiti Island latitude.txt */; };
+		A014FBE1144925D500757D61 /* Kapiti Island legend.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBDE144925D500757D61 /* Kapiti Island legend.txt */; };
+		A014FBE2144925D500757D61 /* Kapiti Island longitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = A014FBDF144925D500757D61 /* Kapiti Island longitude.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Aotearoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aotearoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Aotearoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aotearoa_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58CD5C44142885DF00B2475B /* NearByViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByViewController.h; sourceTree = "<group>"; };
+		58CD5C45142885DF00B2475B /* NearByViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByViewController.m; sourceTree = "<group>"; };
+		58CD5C46142885DF00B2475B /* LegendAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendAnnotation.h; sourceTree = "<group>"; };
+		58CD5C47142885DF00B2475B /* LegendAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendAnnotation.m; sourceTree = "<group>"; };
+		58CD5C4A142885DF00B2475B /* DefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinitionViewController.h; sourceTree = "<group>"; };
+		58CD5C4B142885DF00B2475B /* DefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefinitionViewController.m; sourceTree = "<group>"; };
+		58CD5C4C142885DF00B2475B /* GlossaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossaryViewController.m; sourceTree = "<group>"; };
+		58CD5C4D142885DF00B2475B /* GlossaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossaryViewController.h; sourceTree = "<group>"; };
+		58CD5C50142885DF00B2475B /* ErrorMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorMessageViewController.h; sourceTree = "<group>"; };
+		58CD5C51142885DF00B2475B /* ErrorMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorMessageViewController.m; sourceTree = "<group>"; };
+		58CD5C53142885DF00B2475B /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		58CD5C54142885DF00B2475B /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		58CD5C55142885DF00B2475B /* LegendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendsViewController.m; sourceTree = "<group>"; };
+		58CD5C56142885DF00B2475B /* LegendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendsViewController.h; sourceTree = "<group>"; };
+		58CD5C57142885DF00B2475B /* AotearoaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotearoaAppDelegate.h; sourceTree = "<group>"; };
+		58CD5C58142885DF00B2475B /* AotearoaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotearoaAppDelegate.m; sourceTree = "<group>"; };
+		58CD5C621428860300B2475B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		58CD5C631428860300B2475B /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		58CD5C641428860300B2475B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		58CD5C651428860300B2475B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		58CD5C671428860300B2475B /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		58CD5C691428860300B2475B /* ErrorMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorMessageViewController.xib; sourceTree = "<group>"; };
+		58CD5C6A1428860300B2475B /* NearByViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NearByViewController.xib; sourceTree = "<group>"; };
+		58CD5C6B1428860300B2475B /* DefinitionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefinitionViewController.xib; sourceTree = "<group>"; };
+		58CD5C6C1428860300B2475B /* StoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryViewController.xib; sourceTree = "<group>"; };
+		58CD5C6D1428860300B2475B /* GlossaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GlossaryViewController.xib; sourceTree = "<group>"; };
+		58CD5C6E1428860300B2475B /* LegendsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LegendsViewController.xib; sourceTree = "<group>"; };
+		58CD5C6F1428860300B2475B /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		58CD5C711428860300B2475B /* legends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legends.png; sourceTree = "<group>"; };
+		58CD5C721428860300B2475B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		58CD5C731428860300B2475B /* glossary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glossary.png; sourceTree = "<group>"; };
+		58CD5C831428861000B2475B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		58CD5C851428861900B2475B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		58CD5C9E1428878200B2475B /* Aroha definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aroha definition.txt"; sourceTree = "<group>"; };
+		58CD5CA01428878200B2475B /* Hui definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hui definition.txt"; sourceTree = "<group>"; };
+		58CD5CA21428878200B2475B /* Kau definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kau definition.txt"; sourceTree = "<group>"; };
+		58CD5CA41428878200B2475B /* Mana definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mana definition.txt"; sourceTree = "<group>"; };
+		58CD5CA61428878200B2475B /* Mate definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mate definition.txt"; sourceTree = "<group>"; };
+		58CD5CA81428878200B2475B /* One definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "One definition.txt"; sourceTree = "<group>"; };
+		58CD5CAA1428878200B2475B /* Puna definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Puna definition.txt"; sourceTree = "<group>"; };
+		58CD5CAC1428878200B2475B /* Punga definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Punga definition.txt"; sourceTree = "<group>"; };
+		58CD5CAE1428878200B2475B /* Rangi definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rangi definition.txt"; sourceTree = "<group>"; };
+		58CD5CB01428878200B2475B /* Rei definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rei definition.txt"; sourceTree = "<group>"; };
+		58CD5CB21428878200B2475B /* Reinga definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Reinga definition.txt"; sourceTree = "<group>"; };
+		58CD5CB41428878200B2475B /* Roa definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Roa definition.txt"; sourceTree = "<group>"; };
+		58CD5CB61428878200B2475B /* Roto definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Roto definition.txt"; sourceTree = "<group>"; };
+		58CD5CB81428878200B2475B /* Rua definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rua definition.txt"; sourceTree = "<group>"; };
+		58CD5CBA1428878200B2475B /* Taka definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Taka definition.txt"; sourceTree = "<group>"; };
+		58CD5CBC1428878200B2475B /* Takere definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Takere definition.txt"; sourceTree = "<group>"; };
+		58CD5CBE1428878200B2475B /* Tama definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tama definition.txt"; sourceTree = "<group>"; };
+		58CD5CC01428878200B2475B /* Taniwha definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Taniwha definition.txt"; sourceTree = "<group>"; };
+		58CD5CC21428878200B2475B /* Tohe definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tohe definition.txt"; sourceTree = "<group>"; };
+		58CD5CC41428878200B2475B /* Wai definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Wai definition.txt"; sourceTree = "<group>"; };
+		58CD5CC61428878200B2475B /* Wairua definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Wairua definition.txt"; sourceTree = "<group>"; };
+		58CD5CC81428878200B2475B /* Waka definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Waka definition.txt"; sourceTree = "<group>"; };
+		58CD5CCA1428878200B2475B /* Whanau definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Whanau definition.txt"; sourceTree = "<group>"; };
+		58CD5CCC1428878200B2475B /* Whanga definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Whanga definition.txt"; sourceTree = "<group>"; };
+		58CD5CCE1428878200B2475B /* Whare definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Whare definition.txt"; sourceTree = "<group>"; };
+		58CD5CEA1428878C00B2475B /* Auckland latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Auckland latitude.txt"; sourceTree = "<group>"; };
+		58CD5CEB1428878C00B2475B /* Auckland legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Auckland legend.txt"; sourceTree = "<group>"; };
+		58CD5CEC1428878C00B2475B /* Auckland longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Auckland longitude.txt"; sourceTree = "<group>"; };
+		58CD5CEE1428878C00B2475B /* Cape Reinga latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Cape Reinga latitude.txt"; sourceTree = "<group>"; };
+		58CD5CEF1428878C00B2475B /* Cape Reinga legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Cape Reinga legend.txt"; sourceTree = "<group>"; };
+		58CD5CF01428878C00B2475B /* Cape Reinga longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Cape Reinga longitude.txt"; sourceTree = "<group>"; };
+		58CD5CF21428878C00B2475B /* Kaikoura latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kaikoura latitude.txt"; sourceTree = "<group>"; };
+		58CD5CF31428878C00B2475B /* Kaikoura legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kaikoura legend.txt"; sourceTree = "<group>"; };
+		58CD5CF41428878C00B2475B /* Kaikoura longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kaikoura longitude.txt"; sourceTree = "<group>"; };
+		58CD5CF61428878C00B2475B /* Manakau latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Manakau latitude.txt"; sourceTree = "<group>"; };
+		58CD5CF71428878C00B2475B /* Manakau legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Manakau legend.txt"; sourceTree = "<group>"; };
+		58CD5CF81428878C00B2475B /* Manakau longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Manakau longitude.txt"; sourceTree = "<group>"; };
+		58CD5CFA1428878C00B2475B /* Mt Taranaki latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mt Taranaki latitude.txt"; sourceTree = "<group>"; };
+		58CD5CFB1428878C00B2475B /* Mt Taranaki legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mt Taranaki legend.txt"; sourceTree = "<group>"; };
+		58CD5CFC1428878C00B2475B /* Mt Taranaki longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mt Taranaki longitude.txt"; sourceTree = "<group>"; };
+		58CD5CFE1428878C00B2475B /* Napier latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Napier latitude.txt"; sourceTree = "<group>"; };
+		58CD5CFF1428878C00B2475B /* Napier legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Napier legend.txt"; sourceTree = "<group>"; };
+		58CD5D001428878C00B2475B /* Napier longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Napier longitude.txt"; sourceTree = "<group>"; };
+		58CD5D021428878C00B2475B /* Queenstown latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Queenstown latitude.txt"; sourceTree = "<group>"; };
+		58CD5D031428878C00B2475B /* Queenstown legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Queenstown legend.txt"; sourceTree = "<group>"; };
+		58CD5D041428878C00B2475B /* Queenstown longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Queenstown longitude.txt"; sourceTree = "<group>"; };
+		58CD5D061428878C00B2475B /* Rangitoto latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rangitoto latitude.txt"; sourceTree = "<group>"; };
+		58CD5D071428878C00B2475B /* Rangitoto legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rangitoto legend.txt"; sourceTree = "<group>"; };
+		58CD5D081428878C00B2475B /* Rangitoto longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rangitoto longitude.txt"; sourceTree = "<group>"; };
+		58CD5D0A1428878C00B2475B /* Rotorua latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rotorua latitude.txt"; sourceTree = "<group>"; };
+		58CD5D0B1428878C00B2475B /* Rotorua legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rotorua legend.txt"; sourceTree = "<group>"; };
+		58CD5D0C1428878C00B2475B /* Rotorua longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rotorua longitude.txt"; sourceTree = "<group>"; };
+		58CD5D0E1428878C00B2475B /* Stewart Island latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Stewart Island latitude.txt"; sourceTree = "<group>"; };
+		58CD5D0F1428878C00B2475B /* Stewart Island legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Stewart Island legend.txt"; sourceTree = "<group>"; };
+		58CD5D101428878C00B2475B /* Stewart Island longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Stewart Island longitude.txt"; sourceTree = "<group>"; };
+		58CD5D121428878C00B2475B /* Takapuna latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Takapuna latitude.txt"; sourceTree = "<group>"; };
+		58CD5D131428878C00B2475B /* Takapuna legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Takapuna legend.txt"; sourceTree = "<group>"; };
+		58CD5D141428878C00B2475B /* Takapuna longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Takapuna longitude.txt"; sourceTree = "<group>"; };
+		58CD5D161428878C00B2475B /* West Coast latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "West Coast latitude.txt"; sourceTree = "<group>"; };
+		58CD5D171428878C00B2475B /* West Coast legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "West Coast legend.txt"; sourceTree = "<group>"; };
+		58CD5D181428878C00B2475B /* West Coast longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "West Coast longitude.txt"; sourceTree = "<group>"; };
+		58CD5D1A1428878C00B2475B /* Whangarei latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Whangarei latitude.txt"; sourceTree = "<group>"; };
+		58CD5D1B1428878C00B2475B /* Whangarei legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Whangarei legend.txt"; sourceTree = "<group>"; };
+		58CD5D1C1428878C00B2475B /* Whangarei longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Whangarei longitude.txt"; sourceTree = "<group>"; };
+		58CD5D54142895FD00B2475B /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Aotearoa-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Aotearoa-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A014FB381449216500757D61 /* Christchurch latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Christchurch latitude.txt"; sourceTree = "<group>"; };
+		A014FB391449216500757D61 /* Christchurch legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Christchurch legend.txt"; sourceTree = "<group>"; };
+		A014FB3A1449216500757D61 /* Christchurch longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Christchurch longitude.txt"; sourceTree = "<group>"; };
+		A014FB3C1449216500757D61 /* Dunedin latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dunedin latitude.txt"; sourceTree = "<group>"; };
+		A014FB3D1449216500757D61 /* Dunedin legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dunedin legend.txt"; sourceTree = "<group>"; };
+		A014FB3E1449216500757D61 /* Dunedin longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dunedin longitude.txt"; sourceTree = "<group>"; };
+		A014FB401449216500757D61 /* Hamilton latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hamilton latitude.txt"; sourceTree = "<group>"; };
+		A014FB411449216500757D61 /* Hamilton legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hamilton legend.txt"; sourceTree = "<group>"; };
+		A014FB421449216500757D61 /* Hamilton longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hamilton longitude.txt"; sourceTree = "<group>"; };
+		A014FB481449216500757D61 /* Wellington latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Wellington latitude.txt"; sourceTree = "<group>"; };
+		A014FB491449216500757D61 /* Wellington legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Wellington legend.txt"; sourceTree = "<group>"; };
+		A014FB4A1449216500757D61 /* Wellington longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Wellington longitude.txt"; sourceTree = "<group>"; };
+		A014FBBF1449223800757D61 /* Whare definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Whare definition.txt"; sourceTree = "<group>"; };
+		A014FBC11449223800757D61 /* Whero definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Whero definition.txt"; sourceTree = "<group>"; };
+		A014FBC31449223800757D61 /* Kowhai definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kowhai definition.txt"; sourceTree = "<group>"; };
+		A014FBC51449223800757D61 /* Kakariki definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kakariki definition.txt"; sourceTree = "<group>"; };
+		A014FBC71449223800757D61 /* Kikorangi definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kikorangi definition.txt"; sourceTree = "<group>"; };
+		A014FBC91449223800757D61 /* Mangu definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mangu definition.txt"; sourceTree = "<group>"; };
+		A014FBCB1449223800757D61 /* Ma definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ma definition.txt"; sourceTree = "<group>"; };
+		A014FBCD1449223800757D61 /* Pari definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pari definition.txt"; sourceTree = "<group>"; };
+		A014FBCF1449223800757D61 /* Reinga definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Reinga definition.txt"; sourceTree = "<group>"; };
+		A014FBD11449223800757D61 /* Aroaro definition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aroaro definition.txt"; sourceTree = "<group>"; };
+		A014FBDD144925D500757D61 /* Kapiti Island latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kapiti Island latitude.txt"; sourceTree = "<group>"; };
+		A014FBDE144925D500757D61 /* Kapiti Island legend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kapiti Island legend.txt"; sourceTree = "<group>"; };
+		A014FBDF144925D500757D61 /* Kapiti Island longitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Kapiti Island longitude.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				58CD5C841428861000B2475B /* CoreLocation.framework in Frameworks */,
+				58CD5C861428861900B2475B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C57142885DF00B2475B /* AotearoaAppDelegate.h */,
+				58CD5C58142885DF00B2475B /* AotearoaAppDelegate.m */,
+				58CD5C4E142885DF00B2475B /* Legends */,
+				58CD5C48142885DF00B2475B /* Glossary */,
+				58CD5C43142885DF00B2475B /* Near By */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Aotearoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Aotearoa */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				58CD5D54142895FD00B2475B /* Entitlements.plist */,
+			);
+			name = Aotearoa;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* Aotearoa_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CE81428878C00B2475B /* Legends */,
+				58CD5C9C1428878200B2475B /* Definitions */,
+				58CD5C701428860300B2475B /* Tab Bar Icons */,
+				58CD5C681428860300B2475B /* Nibs */,
+				58CD5C661428860300B2475B /* Launch Image */,
+				58CD5C611428860300B2475B /* Application Icons */,
+				8D1107310486CEB800E47090 /* Aotearoa-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				58CD5C831428861000B2475B /* CoreLocation.framework */,
+				58CD5C851428861900B2475B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58CD5C43142885DF00B2475B /* Near By */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C44142885DF00B2475B /* NearByViewController.h */,
+				58CD5C45142885DF00B2475B /* NearByViewController.m */,
+				58CD5C46142885DF00B2475B /* LegendAnnotation.h */,
+				58CD5C47142885DF00B2475B /* LegendAnnotation.m */,
+			);
+			name = "Near By";
+			sourceTree = "<group>";
+		};
+		58CD5C48142885DF00B2475B /* Glossary */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C4C142885DF00B2475B /* GlossaryViewController.m */,
+				58CD5C4D142885DF00B2475B /* GlossaryViewController.h */,
+				58CD5C49142885DF00B2475B /* Definition */,
+			);
+			name = Glossary;
+			sourceTree = "<group>";
+		};
+		58CD5C49142885DF00B2475B /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C4A142885DF00B2475B /* DefinitionViewController.h */,
+				58CD5C4B142885DF00B2475B /* DefinitionViewController.m */,
+			);
+			name = Definition;
+			sourceTree = "<group>";
+		};
+		58CD5C4E142885DF00B2475B /* Legends */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C55142885DF00B2475B /* LegendsViewController.m */,
+				58CD5C56142885DF00B2475B /* LegendsViewController.h */,
+				58CD5C52142885DF00B2475B /* Story */,
+				58CD5C4F142885DF00B2475B /* Error Message */,
+			);
+			name = Legends;
+			sourceTree = "<group>";
+		};
+		58CD5C4F142885DF00B2475B /* Error Message */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C50142885DF00B2475B /* ErrorMessageViewController.h */,
+				58CD5C51142885DF00B2475B /* ErrorMessageViewController.m */,
+			);
+			name = "Error Message";
+			sourceTree = "<group>";
+		};
+		58CD5C52142885DF00B2475B /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C53142885DF00B2475B /* StoryViewController.m */,
+				58CD5C54142885DF00B2475B /* StoryViewController.h */,
+			);
+			name = Story;
+			sourceTree = "<group>";
+		};
+		58CD5C611428860300B2475B /* Application Icons */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C621428860300B2475B /* Icon@2x.png */,
+				58CD5C631428860300B2475B /* iTunesArtwork.png */,
+				58CD5C641428860300B2475B /* Icon-72.png */,
+				58CD5C651428860300B2475B /* Icon.png */,
+			);
+			name = "Application Icons";
+			sourceTree = "<group>";
+		};
+		58CD5C661428860300B2475B /* Launch Image */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C671428860300B2475B /* launch.png */,
+			);
+			name = "Launch Image";
+			sourceTree = "<group>";
+		};
+		58CD5C681428860300B2475B /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C691428860300B2475B /* ErrorMessageViewController.xib */,
+				58CD5C6A1428860300B2475B /* NearByViewController.xib */,
+				58CD5C6B1428860300B2475B /* DefinitionViewController.xib */,
+				58CD5C6C1428860300B2475B /* StoryViewController.xib */,
+				58CD5C6D1428860300B2475B /* GlossaryViewController.xib */,
+				58CD5C6E1428860300B2475B /* LegendsViewController.xib */,
+				58CD5C6F1428860300B2475B /* MainWindow.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		58CD5C701428860300B2475B /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C711428860300B2475B /* legends.png */,
+				58CD5C721428860300B2475B /* map.png */,
+				58CD5C731428860300B2475B /* glossary.png */,
+			);
+			name = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+		58CD5C9C1428878200B2475B /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBBE1449223700757D61 /* Whare */,
+				A014FBC01449223800757D61 /* Whero */,
+				A014FBC21449223800757D61 /* Kowhai */,
+				A014FBC41449223800757D61 /* Kakariki */,
+				A014FBC61449223800757D61 /* Kikorangi */,
+				A014FBC81449223800757D61 /* Mangu */,
+				A014FBCA1449223800757D61 /* Ma */,
+				A014FBCC1449223800757D61 /* Pari */,
+				A014FBCE1449223800757D61 /* Reinga */,
+				A014FBD01449223800757D61 /* Aroaro */,
+				58CD5C9D1428878200B2475B /* Aroha */,
+				58CD5C9F1428878200B2475B /* Hui */,
+				58CD5CA11428878200B2475B /* Kau */,
+				58CD5CA31428878200B2475B /* Mana */,
+				58CD5CA51428878200B2475B /* Mate */,
+				58CD5CA71428878200B2475B /* One */,
+				58CD5CA91428878200B2475B /* Puna */,
+				58CD5CAB1428878200B2475B /* Punga */,
+				58CD5CAD1428878200B2475B /* Rangi */,
+				58CD5CAF1428878200B2475B /* Rei */,
+				58CD5CB11428878200B2475B /* Reinga */,
+				58CD5CB31428878200B2475B /* Roa */,
+				58CD5CB51428878200B2475B /* Roto */,
+				58CD5CB71428878200B2475B /* Rua */,
+				58CD5CB91428878200B2475B /* Taka */,
+				58CD5CBB1428878200B2475B /* Takere */,
+				58CD5CBD1428878200B2475B /* Tama */,
+				58CD5CBF1428878200B2475B /* Taniwha */,
+				58CD5CC11428878200B2475B /* Tohe */,
+				58CD5CC31428878200B2475B /* Wai */,
+				58CD5CC51428878200B2475B /* Wairua */,
+				58CD5CC71428878200B2475B /* Waka */,
+				58CD5CC91428878200B2475B /* Whanau */,
+				58CD5CCB1428878200B2475B /* Whanga */,
+				58CD5CCD1428878200B2475B /* Whare */,
+			);
+			path = Definitions;
+			sourceTree = "<group>";
+		};
+		58CD5C9D1428878200B2475B /* Aroha */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5C9E1428878200B2475B /* Aroha definition.txt */,
+			);
+			path = Aroha;
+			sourceTree = "<group>";
+		};
+		58CD5C9F1428878200B2475B /* Hui */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CA01428878200B2475B /* Hui definition.txt */,
+			);
+			path = Hui;
+			sourceTree = "<group>";
+		};
+		58CD5CA11428878200B2475B /* Kau */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CA21428878200B2475B /* Kau definition.txt */,
+			);
+			path = Kau;
+			sourceTree = "<group>";
+		};
+		58CD5CA31428878200B2475B /* Mana */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CA41428878200B2475B /* Mana definition.txt */,
+			);
+			path = Mana;
+			sourceTree = "<group>";
+		};
+		58CD5CA51428878200B2475B /* Mate */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CA61428878200B2475B /* Mate definition.txt */,
+			);
+			path = Mate;
+			sourceTree = "<group>";
+		};
+		58CD5CA71428878200B2475B /* One */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CA81428878200B2475B /* One definition.txt */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		58CD5CA91428878200B2475B /* Puna */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CAA1428878200B2475B /* Puna definition.txt */,
+			);
+			path = Puna;
+			sourceTree = "<group>";
+		};
+		58CD5CAB1428878200B2475B /* Punga */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CAC1428878200B2475B /* Punga definition.txt */,
+			);
+			path = Punga;
+			sourceTree = "<group>";
+		};
+		58CD5CAD1428878200B2475B /* Rangi */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CAE1428878200B2475B /* Rangi definition.txt */,
+			);
+			path = Rangi;
+			sourceTree = "<group>";
+		};
+		58CD5CAF1428878200B2475B /* Rei */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CB01428878200B2475B /* Rei definition.txt */,
+			);
+			path = Rei;
+			sourceTree = "<group>";
+		};
+		58CD5CB11428878200B2475B /* Reinga */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CB21428878200B2475B /* Reinga definition.txt */,
+			);
+			path = Reinga;
+			sourceTree = "<group>";
+		};
+		58CD5CB31428878200B2475B /* Roa */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CB41428878200B2475B /* Roa definition.txt */,
+			);
+			path = Roa;
+			sourceTree = "<group>";
+		};
+		58CD5CB51428878200B2475B /* Roto */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CB61428878200B2475B /* Roto definition.txt */,
+			);
+			path = Roto;
+			sourceTree = "<group>";
+		};
+		58CD5CB71428878200B2475B /* Rua */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CB81428878200B2475B /* Rua definition.txt */,
+			);
+			path = Rua;
+			sourceTree = "<group>";
+		};
+		58CD5CB91428878200B2475B /* Taka */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CBA1428878200B2475B /* Taka definition.txt */,
+			);
+			path = Taka;
+			sourceTree = "<group>";
+		};
+		58CD5CBB1428878200B2475B /* Takere */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CBC1428878200B2475B /* Takere definition.txt */,
+			);
+			path = Takere;
+			sourceTree = "<group>";
+		};
+		58CD5CBD1428878200B2475B /* Tama */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CBE1428878200B2475B /* Tama definition.txt */,
+			);
+			path = Tama;
+			sourceTree = "<group>";
+		};
+		58CD5CBF1428878200B2475B /* Taniwha */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CC01428878200B2475B /* Taniwha definition.txt */,
+			);
+			path = Taniwha;
+			sourceTree = "<group>";
+		};
+		58CD5CC11428878200B2475B /* Tohe */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CC21428878200B2475B /* Tohe definition.txt */,
+			);
+			path = Tohe;
+			sourceTree = "<group>";
+		};
+		58CD5CC31428878200B2475B /* Wai */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CC41428878200B2475B /* Wai definition.txt */,
+			);
+			path = Wai;
+			sourceTree = "<group>";
+		};
+		58CD5CC51428878200B2475B /* Wairua */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CC61428878200B2475B /* Wairua definition.txt */,
+			);
+			path = Wairua;
+			sourceTree = "<group>";
+		};
+		58CD5CC71428878200B2475B /* Waka */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CC81428878200B2475B /* Waka definition.txt */,
+			);
+			path = Waka;
+			sourceTree = "<group>";
+		};
+		58CD5CC91428878200B2475B /* Whanau */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CCA1428878200B2475B /* Whanau definition.txt */,
+			);
+			path = Whanau;
+			sourceTree = "<group>";
+		};
+		58CD5CCB1428878200B2475B /* Whanga */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CCC1428878200B2475B /* Whanga definition.txt */,
+			);
+			path = Whanga;
+			sourceTree = "<group>";
+		};
+		58CD5CCD1428878200B2475B /* Whare */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CCE1428878200B2475B /* Whare definition.txt */,
+			);
+			path = Whare;
+			sourceTree = "<group>";
+		};
+		58CD5CE81428878C00B2475B /* Legends */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBDC144925D500757D61 /* Kapiti Island */,
+				A014FB371449216500757D61 /* Christchurch */,
+				A014FB3B1449216500757D61 /* Dunedin */,
+				A014FB3F1449216500757D61 /* Hamilton */,
+				A014FB471449216500757D61 /* Wellington */,
+				58CD5CE91428878C00B2475B /* Auckland */,
+				58CD5CED1428878C00B2475B /* Cape Reinga */,
+				58CD5CF11428878C00B2475B /* Kaikoura */,
+				58CD5CF51428878C00B2475B /* Manakau */,
+				58CD5CF91428878C00B2475B /* Mt Taranaki */,
+				58CD5CFD1428878C00B2475B /* Napier */,
+				58CD5D011428878C00B2475B /* Queenstown */,
+				58CD5D051428878C00B2475B /* Rangitoto */,
+				58CD5D091428878C00B2475B /* Rotorua */,
+				58CD5D0D1428878C00B2475B /* Stewart Island */,
+				58CD5D111428878C00B2475B /* Takapuna */,
+				58CD5D151428878C00B2475B /* West Coast */,
+				58CD5D191428878C00B2475B /* Whangarei */,
+			);
+			path = Legends;
+			sourceTree = "<group>";
+		};
+		58CD5CE91428878C00B2475B /* Auckland */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CEA1428878C00B2475B /* Auckland latitude.txt */,
+				58CD5CEB1428878C00B2475B /* Auckland legend.txt */,
+				58CD5CEC1428878C00B2475B /* Auckland longitude.txt */,
+			);
+			path = Auckland;
+			sourceTree = "<group>";
+		};
+		58CD5CED1428878C00B2475B /* Cape Reinga */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CEE1428878C00B2475B /* Cape Reinga latitude.txt */,
+				58CD5CEF1428878C00B2475B /* Cape Reinga legend.txt */,
+				58CD5CF01428878C00B2475B /* Cape Reinga longitude.txt */,
+			);
+			path = "Cape Reinga";
+			sourceTree = "<group>";
+		};
+		58CD5CF11428878C00B2475B /* Kaikoura */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CF21428878C00B2475B /* Kaikoura latitude.txt */,
+				58CD5CF31428878C00B2475B /* Kaikoura legend.txt */,
+				58CD5CF41428878C00B2475B /* Kaikoura longitude.txt */,
+			);
+			path = Kaikoura;
+			sourceTree = "<group>";
+		};
+		58CD5CF51428878C00B2475B /* Manakau */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CF61428878C00B2475B /* Manakau latitude.txt */,
+				58CD5CF71428878C00B2475B /* Manakau legend.txt */,
+				58CD5CF81428878C00B2475B /* Manakau longitude.txt */,
+			);
+			path = Manakau;
+			sourceTree = "<group>";
+		};
+		58CD5CF91428878C00B2475B /* Mt Taranaki */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CFA1428878C00B2475B /* Mt Taranaki latitude.txt */,
+				58CD5CFB1428878C00B2475B /* Mt Taranaki legend.txt */,
+				58CD5CFC1428878C00B2475B /* Mt Taranaki longitude.txt */,
+			);
+			path = "Mt Taranaki";
+			sourceTree = "<group>";
+		};
+		58CD5CFD1428878C00B2475B /* Napier */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5CFE1428878C00B2475B /* Napier latitude.txt */,
+				58CD5CFF1428878C00B2475B /* Napier legend.txt */,
+				58CD5D001428878C00B2475B /* Napier longitude.txt */,
+			);
+			path = Napier;
+			sourceTree = "<group>";
+		};
+		58CD5D011428878C00B2475B /* Queenstown */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5D021428878C00B2475B /* Queenstown latitude.txt */,
+				58CD5D031428878C00B2475B /* Queenstown legend.txt */,
+				58CD5D041428878C00B2475B /* Queenstown longitude.txt */,
+			);
+			path = Queenstown;
+			sourceTree = "<group>";
+		};
+		58CD5D051428878C00B2475B /* Rangitoto */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5D061428878C00B2475B /* Rangitoto latitude.txt */,
+				58CD5D071428878C00B2475B /* Rangitoto legend.txt */,
+				58CD5D081428878C00B2475B /* Rangitoto longitude.txt */,
+			);
+			path = Rangitoto;
+			sourceTree = "<group>";
+		};
+		58CD5D091428878C00B2475B /* Rotorua */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5D0A1428878C00B2475B /* Rotorua latitude.txt */,
+				58CD5D0B1428878C00B2475B /* Rotorua legend.txt */,
+				58CD5D0C1428878C00B2475B /* Rotorua longitude.txt */,
+			);
+			path = Rotorua;
+			sourceTree = "<group>";
+		};
+		58CD5D0D1428878C00B2475B /* Stewart Island */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5D0E1428878C00B2475B /* Stewart Island latitude.txt */,
+				58CD5D0F1428878C00B2475B /* Stewart Island legend.txt */,
+				58CD5D101428878C00B2475B /* Stewart Island longitude.txt */,
+			);
+			path = "Stewart Island";
+			sourceTree = "<group>";
+		};
+		58CD5D111428878C00B2475B /* Takapuna */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5D121428878C00B2475B /* Takapuna latitude.txt */,
+				58CD5D131428878C00B2475B /* Takapuna legend.txt */,
+				58CD5D141428878C00B2475B /* Takapuna longitude.txt */,
+			);
+			path = Takapuna;
+			sourceTree = "<group>";
+		};
+		58CD5D151428878C00B2475B /* West Coast */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5D161428878C00B2475B /* West Coast latitude.txt */,
+				58CD5D171428878C00B2475B /* West Coast legend.txt */,
+				58CD5D181428878C00B2475B /* West Coast longitude.txt */,
+			);
+			path = "West Coast";
+			sourceTree = "<group>";
+		};
+		58CD5D191428878C00B2475B /* Whangarei */ = {
+			isa = PBXGroup;
+			children = (
+				58CD5D1A1428878C00B2475B /* Whangarei latitude.txt */,
+				58CD5D1B1428878C00B2475B /* Whangarei legend.txt */,
+				58CD5D1C1428878C00B2475B /* Whangarei longitude.txt */,
+			);
+			path = Whangarei;
+			sourceTree = "<group>";
+		};
+		A014FB371449216500757D61 /* Christchurch */ = {
+			isa = PBXGroup;
+			children = (
+				A014FB381449216500757D61 /* Christchurch latitude.txt */,
+				A014FB391449216500757D61 /* Christchurch legend.txt */,
+				A014FB3A1449216500757D61 /* Christchurch longitude.txt */,
+			);
+			path = Christchurch;
+			sourceTree = "<group>";
+		};
+		A014FB3B1449216500757D61 /* Dunedin */ = {
+			isa = PBXGroup;
+			children = (
+				A014FB3C1449216500757D61 /* Dunedin latitude.txt */,
+				A014FB3D1449216500757D61 /* Dunedin legend.txt */,
+				A014FB3E1449216500757D61 /* Dunedin longitude.txt */,
+			);
+			path = Dunedin;
+			sourceTree = "<group>";
+		};
+		A014FB3F1449216500757D61 /* Hamilton */ = {
+			isa = PBXGroup;
+			children = (
+				A014FB401449216500757D61 /* Hamilton latitude.txt */,
+				A014FB411449216500757D61 /* Hamilton legend.txt */,
+				A014FB421449216500757D61 /* Hamilton longitude.txt */,
+			);
+			path = Hamilton;
+			sourceTree = "<group>";
+		};
+		A014FB471449216500757D61 /* Wellington */ = {
+			isa = PBXGroup;
+			children = (
+				A014FB481449216500757D61 /* Wellington latitude.txt */,
+				A014FB491449216500757D61 /* Wellington legend.txt */,
+				A014FB4A1449216500757D61 /* Wellington longitude.txt */,
+			);
+			path = Wellington;
+			sourceTree = "<group>";
+		};
+		A014FBBE1449223700757D61 /* Whare */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBBF1449223800757D61 /* Whare definition.txt */,
+			);
+			path = Whare;
+			sourceTree = "<group>";
+		};
+		A014FBC01449223800757D61 /* Whero */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBC11449223800757D61 /* Whero definition.txt */,
+			);
+			path = Whero;
+			sourceTree = "<group>";
+		};
+		A014FBC21449223800757D61 /* Kowhai */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBC31449223800757D61 /* Kowhai definition.txt */,
+			);
+			path = Kowhai;
+			sourceTree = "<group>";
+		};
+		A014FBC41449223800757D61 /* Kakariki */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBC51449223800757D61 /* Kakariki definition.txt */,
+			);
+			path = Kakariki;
+			sourceTree = "<group>";
+		};
+		A014FBC61449223800757D61 /* Kikorangi */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBC71449223800757D61 /* Kikorangi definition.txt */,
+			);
+			path = Kikorangi;
+			sourceTree = "<group>";
+		};
+		A014FBC81449223800757D61 /* Mangu */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBC91449223800757D61 /* Mangu definition.txt */,
+			);
+			path = Mangu;
+			sourceTree = "<group>";
+		};
+		A014FBCA1449223800757D61 /* Ma */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBCB1449223800757D61 /* Ma definition.txt */,
+			);
+			path = Ma;
+			sourceTree = "<group>";
+		};
+		A014FBCC1449223800757D61 /* Pari */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBCD1449223800757D61 /* Pari definition.txt */,
+			);
+			path = Pari;
+			sourceTree = "<group>";
+		};
+		A014FBCE1449223800757D61 /* Reinga */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBCF1449223800757D61 /* Reinga definition.txt */,
+			);
+			path = Reinga;
+			sourceTree = "<group>";
+		};
+		A014FBD01449223800757D61 /* Aroaro */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBD11449223800757D61 /* Aroaro definition.txt */,
+			);
+			path = Aroaro;
+			sourceTree = "<group>";
+		};
+		A014FBDC144925D500757D61 /* Kapiti Island */ = {
+			isa = PBXGroup;
+			children = (
+				A014FBDD144925D500757D61 /* Kapiti Island latitude.txt */,
+				A014FBDE144925D500757D61 /* Kapiti Island legend.txt */,
+				A014FBDF144925D500757D61 /* Kapiti Island longitude.txt */,
+			);
+			path = "Kapiti Island";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Aotearoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Aotearoa" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aotearoa;
+			productName = Aotearoa;
+			productReference = 1D6058910D05DD3D006BFB54 /* Aotearoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Aotearoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Aotearoa */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Aotearoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CD5C741428860300B2475B /* Icon@2x.png in Resources */,
+				58CD5C751428860300B2475B /* iTunesArtwork.png in Resources */,
+				58CD5C761428860300B2475B /* Icon-72.png in Resources */,
+				58CD5C771428860300B2475B /* Icon.png in Resources */,
+				58CD5C781428860300B2475B /* launch.png in Resources */,
+				58CD5C791428860300B2475B /* ErrorMessageViewController.xib in Resources */,
+				58CD5C7A1428860300B2475B /* NearByViewController.xib in Resources */,
+				58CD5C7B1428860300B2475B /* DefinitionViewController.xib in Resources */,
+				58CD5C7C1428860300B2475B /* StoryViewController.xib in Resources */,
+				58CD5C7D1428860300B2475B /* GlossaryViewController.xib in Resources */,
+				58CD5C7E1428860300B2475B /* LegendsViewController.xib in Resources */,
+				58CD5C7F1428860300B2475B /* MainWindow.xib in Resources */,
+				58CD5C801428860300B2475B /* legends.png in Resources */,
+				58CD5C811428860300B2475B /* map.png in Resources */,
+				58CD5C821428860300B2475B /* glossary.png in Resources */,
+				58CD5CCF1428878200B2475B /* Aroha definition.txt in Resources */,
+				58CD5CD01428878200B2475B /* Hui definition.txt in Resources */,
+				58CD5CD11428878200B2475B /* Kau definition.txt in Resources */,
+				58CD5CD21428878200B2475B /* Mana definition.txt in Resources */,
+				58CD5CD31428878200B2475B /* Mate definition.txt in Resources */,
+				58CD5CD41428878200B2475B /* One definition.txt in Resources */,
+				58CD5CD51428878200B2475B /* Puna definition.txt in Resources */,
+				58CD5CD61428878200B2475B /* Punga definition.txt in Resources */,
+				58CD5CD71428878200B2475B /* Rangi definition.txt in Resources */,
+				58CD5CD81428878200B2475B /* Rei definition.txt in Resources */,
+				58CD5CD91428878200B2475B /* Reinga definition.txt in Resources */,
+				58CD5CDA1428878200B2475B /* Roa definition.txt in Resources */,
+				58CD5CDB1428878200B2475B /* Roto definition.txt in Resources */,
+				58CD5CDC1428878200B2475B /* Rua definition.txt in Resources */,
+				58CD5CDD1428878200B2475B /* Taka definition.txt in Resources */,
+				58CD5CDE1428878200B2475B /* Takere definition.txt in Resources */,
+				58CD5CDF1428878200B2475B /* Tama definition.txt in Resources */,
+				58CD5CE01428878200B2475B /* Taniwha definition.txt in Resources */,
+				58CD5CE11428878200B2475B /* Tohe definition.txt in Resources */,
+				58CD5CE21428878200B2475B /* Wai definition.txt in Resources */,
+				58CD5CE31428878200B2475B /* Wairua definition.txt in Resources */,
+				58CD5CE41428878200B2475B /* Waka definition.txt in Resources */,
+				58CD5CE51428878200B2475B /* Whanau definition.txt in Resources */,
+				58CD5CE61428878200B2475B /* Whanga definition.txt in Resources */,
+				58CD5CE71428878200B2475B /* Whare definition.txt in Resources */,
+				58CD5D1D1428878C00B2475B /* Auckland latitude.txt in Resources */,
+				58CD5D1E1428878C00B2475B /* Auckland legend.txt in Resources */,
+				58CD5D1F1428878C00B2475B /* Auckland longitude.txt in Resources */,
+				58CD5D201428878C00B2475B /* Cape Reinga latitude.txt in Resources */,
+				58CD5D211428878C00B2475B /* Cape Reinga legend.txt in Resources */,
+				58CD5D221428878C00B2475B /* Cape Reinga longitude.txt in Resources */,
+				58CD5D231428878C00B2475B /* Kaikoura latitude.txt in Resources */,
+				58CD5D241428878C00B2475B /* Kaikoura legend.txt in Resources */,
+				58CD5D251428878C00B2475B /* Kaikoura longitude.txt in Resources */,
+				58CD5D261428878C00B2475B /* Manakau latitude.txt in Resources */,
+				58CD5D271428878C00B2475B /* Manakau legend.txt in Resources */,
+				58CD5D281428878C00B2475B /* Manakau longitude.txt in Resources */,
+				58CD5D291428878C00B2475B /* Mt Taranaki latitude.txt in Resources */,
+				58CD5D2A1428878C00B2475B /* Mt Taranaki legend.txt in Resources */,
+				58CD5D2B1428878C00B2475B /* Mt Taranaki longitude.txt in Resources */,
+				58CD5D2C1428878C00B2475B /* Napier latitude.txt in Resources */,
+				58CD5D2D1428878C00B2475B /* Napier legend.txt in Resources */,
+				58CD5D2E1428878C00B2475B /* Napier longitude.txt in Resources */,
+				58CD5D2F1428878C00B2475B /* Queenstown latitude.txt in Resources */,
+				58CD5D301428878C00B2475B /* Queenstown legend.txt in Resources */,
+				58CD5D311428878C00B2475B /* Queenstown longitude.txt in Resources */,
+				58CD5D321428878C00B2475B /* Rangitoto latitude.txt in Resources */,
+				58CD5D331428878C00B2475B /* Rangitoto legend.txt in Resources */,
+				58CD5D341428878C00B2475B /* Rangitoto longitude.txt in Resources */,
+				58CD5D351428878C00B2475B /* Rotorua latitude.txt in Resources */,
+				58CD5D361428878C00B2475B /* Rotorua legend.txt in Resources */,
+				58CD5D371428878C00B2475B /* Rotorua longitude.txt in Resources */,
+				58CD5D381428878C00B2475B /* Stewart Island latitude.txt in Resources */,
+				58CD5D391428878C00B2475B /* Stewart Island legend.txt in Resources */,
+				58CD5D3A1428878C00B2475B /* Stewart Island longitude.txt in Resources */,
+				58CD5D3B1428878C00B2475B /* Takapuna latitude.txt in Resources */,
+				58CD5D3C1428878C00B2475B /* Takapuna legend.txt in Resources */,
+				58CD5D3D1428878C00B2475B /* Takapuna longitude.txt in Resources */,
+				58CD5D3E1428878C00B2475B /* West Coast latitude.txt in Resources */,
+				58CD5D3F1428878C00B2475B /* West Coast legend.txt in Resources */,
+				58CD5D401428878C00B2475B /* West Coast longitude.txt in Resources */,
+				58CD5D411428878C00B2475B /* Whangarei latitude.txt in Resources */,
+				58CD5D421428878C00B2475B /* Whangarei legend.txt in Resources */,
+				58CD5D431428878C00B2475B /* Whangarei longitude.txt in Resources */,
+				A014FB4B1449216500757D61 /* Christchurch latitude.txt in Resources */,
+				A014FB4C1449216500757D61 /* Christchurch legend.txt in Resources */,
+				A014FB4D1449216500757D61 /* Christchurch longitude.txt in Resources */,
+				A014FB4E1449216500757D61 /* Dunedin latitude.txt in Resources */,
+				A014FB4F1449216500757D61 /* Dunedin legend.txt in Resources */,
+				A014FB501449216500757D61 /* Dunedin longitude.txt in Resources */,
+				A014FB511449216500757D61 /* Hamilton latitude.txt in Resources */,
+				A014FB521449216500757D61 /* Hamilton legend.txt in Resources */,
+				A014FB531449216500757D61 /* Hamilton longitude.txt in Resources */,
+				A014FB571449216500757D61 /* Wellington latitude.txt in Resources */,
+				A014FB581449216500757D61 /* Wellington legend.txt in Resources */,
+				A014FB591449216500757D61 /* Wellington longitude.txt in Resources */,
+				A014FBD31449223800757D61 /* Whero definition.txt in Resources */,
+				A014FBD41449223800757D61 /* Kowhai definition.txt in Resources */,
+				A014FBD51449223800757D61 /* Kakariki definition.txt in Resources */,
+				A014FBD61449223800757D61 /* Kikorangi definition.txt in Resources */,
+				A014FBD71449223800757D61 /* Mangu definition.txt in Resources */,
+				A014FBD81449223800757D61 /* Ma definition.txt in Resources */,
+				A014FBD91449223800757D61 /* Pari definition.txt in Resources */,
+				A014FBDB1449223800757D61 /* Aroaro definition.txt in Resources */,
+				A014FBE0144925D500757D61 /* Kapiti Island latitude.txt in Resources */,
+				A014FBE1144925D500757D61 /* Kapiti Island legend.txt in Resources */,
+				A014FBE2144925D500757D61 /* Kapiti Island longitude.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				58CD5C59142885DF00B2475B /* NearByViewController.m in Sources */,
+				58CD5C5A142885DF00B2475B /* LegendAnnotation.m in Sources */,
+				58CD5C5B142885DF00B2475B /* DefinitionViewController.m in Sources */,
+				58CD5C5C142885DF00B2475B /* GlossaryViewController.m in Sources */,
+				58CD5C5D142885DF00B2475B /* ErrorMessageViewController.m in Sources */,
+				58CD5C5E142885DF00B2475B /* StoryViewController.m in Sources */,
+				58CD5C5F142885DF00B2475B /* LegendsViewController.m in Sources */,
+				58CD5C60142885DF00B2475B /* AotearoaAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/UHOH/Aotearoa/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anna Rose Kerr";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Aotearoa_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Aotearoa-Info.plist";
+				PRODUCT_NAME = Aotearoa;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/UHOH/Aotearoa/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anna Rose Kerr";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Aotearoa_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Aotearoa-Info.plist";
+				PRODUCT_NAME = Aotearoa;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58CD5D501428953D00B2475B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		58CD5D511428953D00B2475B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anna Rose Kerr";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Aotearoa_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Aotearoa-Info.plist";
+				PRODUCT_NAME = Aotearoa;
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Aotearoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				58CD5D511428953D00B2475B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Aotearoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				58CD5D501428953D00B2475B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

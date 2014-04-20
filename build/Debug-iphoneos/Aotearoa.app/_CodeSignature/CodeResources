@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Aroha definition.txt</key>
+		<data>
+		1TXgxeavpJ0JpSoBbl9J+v+Vb7w=
+		</data>
+		<key>Auckland latitude.txt</key>
+		<data>
+		IfWVr4hkbDupOWalzgSCEYQcZm8=
+		</data>
+		<key>Auckland legend.txt</key>
+		<data>
+		WmsGuMWEWqufQ53kYMhVXLOQPFs=
+		</data>
+		<key>Auckland longitude.txt</key>
+		<data>
+		aLmiiMUhJWS1543QEHDAtbtMdVY=
+		</data>
+		<key>Cape Reinga latitude.txt</key>
+		<data>
+		UgXVve4VABdOTYVJj5qdEhM2gG0=
+		</data>
+		<key>Cape Reinga legend.txt</key>
+		<data>
+		i+tRXz+Ezm9W6Tqz2mJc4H2VTGY=
+		</data>
+		<key>Cape Reinga longitude.txt</key>
+		<data>
+		Lb2VkqmsOxG6pkADHoN4rXa16Yg=
+		</data>
+		<key>DefinitionViewController.nib</key>
+		<data>
+		jAMVTdPxiu6DJRKq2/zdURO4UN0=
+		</data>
+		<key>ErrorMessageViewController.nib</key>
+		<data>
+		Os/e4nHofnzq1bDnTvpLOOS/g5o=
+		</data>
+		<key>GlossaryViewController.nib</key>
+		<data>
+		mEsexJGeIWzzJ6iPj9bbOfqdMNM=
+		</data>
+		<key>Hui definition.txt</key>
+		<data>
+		cU8LwXk+dpa9Qdq54KDrLd5PBnw=
+		</data>
+		<key>Icon-72.png</key>
+		<data>
+		SKIXWuau52Ewm+WvZ0QCtRiwJJI=
+		</data>
+		<key>Icon.png</key>
+		<data>
+		9zS+DEszFZboy86yFbW7nvQEGXg=
+		</data>
+		<key>Icon@2x.png</key>
+		<data>
+		HFLUOBAIsm/z/ezMN+DdG98uMaA=
+		</data>
+		<key>Kaikoura latitude.txt</key>
+		<data>
+		b9CoF3YZxxRNa/eaGgCmFHzAQEg=
+		</data>
+		<key>Kaikoura legend.txt</key>
+		<data>
+		SpSj6DFbQx1s7XQq5k4c856LAOg=
+		</data>
+		<key>Kaikoura longitude.txt</key>
+		<data>
+		/I+rhn8mXbdjzBkwtDpFqGD0cuk=
+		</data>
+		<key>Kau definition.txt</key>
+		<data>
+		OpNZMfCPy3KqhUH7C4MGeCVUpjY=
+		</data>
+		<key>LegendsViewController.nib</key>
+		<data>
+		AmS0w0LkguzVfGqdC5v1b0BH/QA=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		i1V1d5gofh9vJVqCJHV+niLKqBg=
+		</data>
+		<key>Mana definition.txt</key>
+		<data>
+		BEhqFS3Xs9I8oL3vQw8fPRuHlqQ=
+		</data>
+		<key>Manakau latitude.txt</key>
+		<data>
+		srAb+sImOdkDouN6XN3JwmjcoaU=
+		</data>
+		<key>Manakau legend.txt</key>
+		<data>
+		lq5n9XLy+pk5mn0cLNU3PCfsGxI=
+		</data>
+		<key>Manakau longitude.txt</key>
+		<data>
+		c27JSUA+jtjUMIJJlL/H9HstvKs=
+		</data>
+		<key>Mate definition.txt</key>
+		<data>
+		K5/7SDZ6uS9JAuO4uOsDoBxV9uU=
+		</data>
+		<key>Mt Taranaki latitude.txt</key>
+		<data>
+		I2GF/amLYsfHSmuQa9Z1UNv2WS0=
+		</data>
+		<key>Mt Taranaki legend.txt</key>
+		<data>
+		uQA1+/XyayQ2ZBTLv0188yfI0kk=
+		</data>
+		<key>Mt Taranaki longitude.txt</key>
+		<data>
+		CJIjC25R7MNuyjkcf7Qv7JFCC50=
+		</data>
+		<key>Napier latitude.txt</key>
+		<data>
+		k1ZWFQi++vD6bOlI7Qnmz0xypfE=
+		</data>
+		<key>Napier legend.txt</key>
+		<data>
+		dX5oczWLLZ9mCvZONiXfsro/7TI=
+		</data>
+		<key>Napier longitude.txt</key>
+		<data>
+		jNBk6vR3IIRjyjddaFazCfihQZs=
+		</data>
+		<key>NearByViewController.nib</key>
+		<data>
+		5vOvxnCFQx9RRRGIXUjF9EsCqxc=
+		</data>
+		<key>One definition.txt</key>
+		<data>
+		yFqmJwrDLr8/fSHwqB6Cfbw2Ius=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Puna definition.txt</key>
+		<data>
+		eW1JgowgcyN5KTdvMpv8kJcvZDM=
+		</data>
+		<key>Punga definition.txt</key>
+		<data>
+		/X6VVkrmcS9lkQ+cPR/wBTBMmv4=
+		</data>
+		<key>Queenstown latitude.txt</key>
+		<data>
+		NAtyRAbs6/3NwGLkOCnqD/9UiOo=
+		</data>
+		<key>Queenstown legend.txt</key>
+		<data>
+		xPpjpUIbaaXmkGetoaBDeLSQ448=
+		</data>
+		<key>Queenstown longitude.txt</key>
+		<data>
+		CWJYFbSNFm+DENIUbL9ZLWHAf9Q=
+		</data>
+		<key>Rangi definition.txt</key>
+		<data>
+		vCsGzcvgrfrRuEGFvZA7p1TEU0Y=
+		</data>
+		<key>Rangitoto latitude.txt</key>
+		<data>
+		2KSj1p96qANrrXvJvBn5xQj/x2Y=
+		</data>
+		<key>Rangitoto legend.txt</key>
+		<data>
+		lGYH/G5ffE1giwKq3VfouXGzq6Q=
+		</data>
+		<key>Rangitoto longitude.txt</key>
+		<data>
+		Viom7yXi0nnePgQDeEAgy5j2d5E=
+		</data>
+		<key>Rei definition.txt</key>
+		<data>
+		04L6LUxWxFJIffKmkrv0uD3TaXA=
+		</data>
+		<key>Reinga definition.txt</key>
+		<data>
+		u5kVlBW5EQoT+Cjidqof0nFbVhg=
+		</data>
+		<key>Roa definition.txt</key>
+		<data>
+		dr+dRY4xXrgdzCXamWgyJk58iOA=
+		</data>
+		<key>Roto definition.txt</key>
+		<data>
+		b84FR8xhp6mONKI4eMe32vNGJJ4=
+		</data>
+		<key>Rotorua latitude.txt</key>
+		<data>
+		1GzJSHVlyv4LWz0toVqx+nQQxUk=
+		</data>
+		<key>Rotorua legend.txt</key>
+		<data>
+		YTia3hNzFPt/ppcIwQUxWTihOGs=
+		</data>
+		<key>Rotorua longitude.txt</key>
+		<data>
+		UQRRaCG03TatM4DZFY1P1moPQPM=
+		</data>
+		<key>Rua definition.txt</key>
+		<data>
+		WfSIA2OZyFlfHqCVe81/xVTrLIc=
+		</data>
+		<key>Stewart Island latitude.txt</key>
+		<data>
+		cXd/n0JMAgCmcWh7xtmUdE0yjho=
+		</data>
+		<key>Stewart Island legend.txt</key>
+		<data>
+		J/TYY8V5UtCS5XLfaMFqDepPv4U=
+		</data>
+		<key>Stewart Island longitude.txt</key>
+		<data>
+		HrMRrjR/4cpXVd05QcxYKCp3Y0Q=
+		</data>
+		<key>StoryViewController.nib</key>
+		<data>
+		jAMVTdPxiu6DJRKq2/zdURO4UN0=
+		</data>
+		<key>Taka definition.txt</key>
+		<data>
+		e8eO2FpRifiPhRD6OKLwPoBtIcs=
+		</data>
+		<key>Takapuna latitude.txt</key>
+		<data>
+		eAHB9oyhsJDsQ2HRT9cpzj4iXII=
+		</data>
+		<key>Takapuna legend.txt</key>
+		<data>
+		PuhdHYyFN89WqxPWoSU4GZst58I=
+		</data>
+		<key>Takapuna longitude.txt</key>
+		<data>
+		XbLGP/0UNEJRFPaxLFk+wZ87Ph0=
+		</data>
+		<key>Takere definition.txt</key>
+		<data>
+		5glIRurzvgs4P+IXBAJuTgNQpnc=
+		</data>
+		<key>Tama definition.txt</key>
+		<data>
+		J88T5wx2L0RNwajejhH5aoDh+9Y=
+		</data>
+		<key>Taniwha definition.txt</key>
+		<data>
+		XI7/lcStKF/Ou2/jZAceY6bz3OA=
+		</data>
+		<key>Tohe definition.txt</key>
+		<data>
+		my7HeAMYEdWVlX/wLw/1PZ3s8hU=
+		</data>
+		<key>Wai definition.txt</key>
+		<data>
+		LTCvBn7UobAaJBK9/GMf0A1TZ0A=
+		</data>
+		<key>Wairua definition.txt</key>
+		<data>
+		RKAOCHJYvpA97PuHqTH77+STIh8=
+		</data>
+		<key>Waka definition.txt</key>
+		<data>
+		mCblKWYWAklaeUdxEo2QFg/r+DA=
+		</data>
+		<key>West Coast latitude.txt</key>
+		<data>
+		hah40LCk1rvY0fF/ZNohnYi10C4=
+		</data>
+		<key>West Coast legend.txt</key>
+		<data>
+		5qEAJZ4GtZibUBkYXSJrOuSPNUY=
+		</data>
+		<key>West Coast longitude.txt</key>
+		<data>
+		b6LSHk7zBXTHZ095UhdWhq7sVYE=
+		</data>
+		<key>Whanau definition.txt</key>
+		<data>
+		fZXJj3hOROjDqVQe5E/KPeyQPOA=
+		</data>
+		<key>Whanga definition.txt</key>
+		<data>
+		h+KCuAbFO9YZBYFuPkQ++nshGQA=
+		</data>
+		<key>Whangarei latitude.txt</key>
+		<data>
+		JNOhlfs98MGad8vgsbQiKMnfhgg=
+		</data>
+		<key>Whangarei legend.txt</key>
+		<data>
+		Vk92XeQCP/ZrviumzbQ1GVaHY7E=
+		</data>
+		<key>Whangarei longitude.txt</key>
+		<data>
+		L87/mYmoLKlyN7w8PPmh8IXjlZc=
+		</data>
+		<key>Whare definition.txt</key>
+		<data>
+		wnvkKYfEIBPrUBRJmYb5wH96VQ8=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		p3ddyYbke1lNjzhU8z0v59UO624=
+		</data>
+		<key>glossary.png</key>
+		<data>
+		YBouWVuQMX9HHrDhzano8OKBhog=
+		</data>
+		<key>iTunesArtwork.png</key>
+		<data>
+		Ibe7wjrtFs9qEGOTsMUmYo1Bv6c=
+		</data>
+		<key>launch.png</key>
+		<data>
+		qTwGvgwnlvjlM7Nj28g9m3aMgsU=
+		</data>
+		<key>legends.png</key>
+		<data>
+		B0/9PIa0A+7kXkSOt1vc26niOqQ=
+		</data>
+		<key>map.png</key>
+		<data>
+		WQW93vfGMmWQOK9VmYkUds4iXZo=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>
